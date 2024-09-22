@@ -1,0 +1,7 @@
+google-generativeai
+groq
+instructor
+jsonref
+pydantic
+python-dotenv
+selenium
