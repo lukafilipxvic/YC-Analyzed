@@ -1,0 +1,4 @@
+
+
+YC also has a Founders directory: https://www.ycombinator.com/companies/founders
+We can scrape that to analyse founders by batch, school, prior employers and role at their yc company.

@@ -1,9 +1,9 @@
-Name,Status,Batch,Team_size,Website,Founders
-Reddit,Acquired,S05,2000,http://reddit.com,Steve Huffman ( ); Alexis Ohanian ( )
-Kiko,Acquired,S05,0,http://kiko.com,Justin Kan (https://www.linkedin.com/in/justinkan https://twitter.com/justinkan); Emmett Shear (https://www.linkedin.com/in/emmettshear https://twitter.com/eshear)
-Clickfacts,Acquired,S05,11,http://clickfacts.com,Mikhail Gurevich (https://www.linkedin.com/in/mikhailgurevich/ https://twitter.com/mikhailgurevich); Mikhail Ledvich (https://www.linkedin.com/in/mledvich ); Greg Gurevich (https://www.linkedin.com/in/greggurevich )
-TextPayMe,Acquired,S05,11,http://textpayme.com,Phil Yuen (https://www.linkedin.com/in/philipyuen/ )
-Loopt,Acquired,S05,11,http://loopt.com,Nick Sivo (https://www.linkedin.com/company/loopt/ )
-Infogami,Inactive,S05,2,http://infogami.com,Aaron Swartz (None None)
-Memamp,Inactive,S05,0,http://memamp.com,Zak Stone (https://www.linkedin.com/in/zstone/ )
-Simmery,Inactive,S05,0,http://simmery.com,
+Name,Status,Batch,Team_size,Website
+Reddit,Acquired,S05,2000,http://reddit.com
+Kiko,Acquired,S05,0,http://kiko.com
+Clickfacts,Acquired,S05,11,http://clickfacts.com
+TextPayMe,Acquired,S05,11,http://textpayme.com
+Loopt,Acquired,S05,11,http://loopt.com
+Infogami,Inactive,S05,2,http://infogami.com
+Memamp,Inactive,S05,0,http://memamp.com
+Simmery,Inactive,S05,0,http://simmery.com

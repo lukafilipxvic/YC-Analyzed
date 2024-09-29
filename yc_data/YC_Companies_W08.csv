@@ -1,22 +1,22 @@
-Name,Status,Batch,Team_size,Website,Founders
-Machine Zone,Acquired,W08,501,https://www.mz.com,Gabriel Leydon (https://www.linkedin.com/in/mikesherrill https://twitter.com/machinezone); Halbert Nakagawa ( ); Mike Sherrill (https://www.linkedin.com/in/mikesherrill )
-Heroku,Acquired,W08,300,http://heroku.com,Orion Henry ( ); James Lindenbaum ( ); Adam Wiggins ( )
-Ninite,Active,W08,2,http://ninite.com,Sascha Kuzins ( ); Patrick Swieskowski ( )
-RescueTime,Active,W08,15,http://rescuetime.com,Brian Fioca (https://www.linkedin.com/in/brianfioca/ https://twitter.com/bfioca); Tony Wright (https://www.linkedin.com/in/webwright https://www.twitter.com/webwright)
-280 North,Acquired,W08,11,http://280north.com,Francisco Tolmasky (https://www.linkedin.com/in/tolmasky ); Tom Robinson ( ); Ross Boucher ( )
-Omnisio,Acquired,W08,0,http://omnisio.com,Julian Frumar (http://www.linkedin.com/in/jfrumar/ )
-A Thinking Ape,Acquired,W08,75,http://athinkingape.com,Kenshi Arasaki (https://www.linkedin.com/in/kenshiarasaki/ https://twitter.com/arasakik); Eric Diep (https://linkedin.com/in/dieperic https://twitter.com/ediep)
-BitSample,Inactive,W08,0,,Patrick Swieskowski ( )
-Joberator,Inactive,W08,2,http://joberator.com,Jorge Ortiz (https://linkedin.com/in/jorgeo )
-Insoshi,Inactive,W08,0,http://insoshi.com,Michael Hartl (https://www.linkedin.com/in/michaeldhartl/ https://twitter.com/mhartl); Long Nguyen (https://www.linkedin.com/in/long-nguyen-3257b3b/ )
-Snaptalent,Inactive,W08,2,http://snaptalent.com,Sumon Sadhu (https://www.linkedin.com/in/sumonsadhu )
-YumDots,Inactive,W08,2,http://yumdots.com,Mark Rosetta (https://linkedin.com/in/mark-rosetta-484071267 )
-Deluux,Inactive,W08,2,http://deluux.com,Paul McKellar (https://www.linkedin.com/in/philipp-pfeiffenberger-913b9bb2 ); Philipp Pfeiffenberger (https://www.linkedin.com/in/philipp-pfeiffenberger-913b9bb2 )
-Kirkland North,Inactive,W08,2,http://kirklandnorth.com,Andrew Fong (https://www.linkedin.com/in/fongandrew ); Matthew O'Brien (https://www.linkedin.com/in/matthew-o-brien-0772488 )
-Tipjoy,Inactive,W08,2,http://tipjoy.com,Ivan Kirigin (http://www.linkedin.com/in/kirigin/ https://twitter.com/ikirigin); Abigail Kirigin (https://www.linkedin.com/in/abbykirigin )
-Mixwit,Inactive,W08,2,http://cloud.tv,Radley Marx (https://www.linkedin.com/in/radleymarx )
-SocialBrowse,Inactive,W08,2,http://socialbrowse.com,Zachary Garbow (https://www.linkedin.com/in/garbowza/ https://twitter.com/garbowza)
-Wundrbar,Inactive,W08,2,http://wundrbar.com,Andrew Dudley (https://www.linkedin.com/in/andrewddudley ); Nicholas Grandy (https://www.linkedin.com/in/nickgrandy )
-FathomDB,Inactive,W08,0,http://fathomdb.com,Mark Kinsey (https://www.linkedin.com/in/markkinsey/ ); Alicia Collins (https://www.linkedin.com/in/eleonorasharef )
-MightyQuiz,Inactive,W08,2,http://mightyquiz.com,Altay Guvench (https://www.linkedin.com/in/altay/ ); Ben Silbermann (https://www.linkedin.com/in/silbermann/ ); Olgun Guvench (https://www.linkedin.com/in/oguvench )
-Trigger,Inactive,W08,11,http://trigger.io,James Brady (https://www.linkedin.com/in/jamesbrady https://twitter.com/Jamesbrady); Patrick Buckley (https://www.linkedin.com/in/patrickreganbuckley https://twitter.com/patrickreganbuckley); Amir Nathoo (https://www.linkedin.com/in/amirnathoo https://twitter.com/amirnathoo)
+Name,Status,Batch,Team_size,Website
+Machine Zone,Acquired,W08,501,https://www.mz.com
+Heroku,Acquired,W08,300,http://heroku.com
+Ninite,Active,W08,2,http://ninite.com
+RescueTime,Active,W08,15,http://rescuetime.com
+280 North,Acquired,W08,11,http://280north.com
+Omnisio,Acquired,W08,0,http://omnisio.com
+A Thinking Ape,Acquired,W08,75,http://athinkingape.com
+BitSample,Inactive,W08,0,
+Joberator,Inactive,W08,2,http://joberator.com
+Insoshi,Inactive,W08,0,http://insoshi.com
+Snaptalent,Inactive,W08,2,http://snaptalent.com
+YumDots,Inactive,W08,2,http://yumdots.com
+Deluux,Inactive,W08,2,http://deluux.com
+Kirkland North,Inactive,W08,2,http://kirklandnorth.com
+Tipjoy,Inactive,W08,2,http://tipjoy.com
+Mixwit,Inactive,W08,2,http://cloud.tv
+SocialBrowse,Inactive,W08,2,http://socialbrowse.com
+Wundrbar,Inactive,W08,2,http://wundrbar.com
+FathomDB,Inactive,W08,0,http://fathomdb.com
+MightyQuiz,Inactive,W08,2,http://mightyquiz.com
+Trigger,Inactive,W08,11,http://trigger.io
