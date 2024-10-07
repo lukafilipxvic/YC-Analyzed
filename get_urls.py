@@ -6,19 +6,25 @@ import pandas as pd
 def get_all_urls(batch_code: str):
     url = f'https://www.ycombinator.com/companies?batch={batch_code}'
 
-    # Initialize the WebDriver
-    driver = webdriver.Chrome()  # or use webdriver.Firefox() for Firefox
+    chrome_options = webdriver.ChromeOptions()
+    prefs = {
+        "profile.managed_default_content_settings.images": 2,  # Disable image loading
+        "profile.managed_default_content_settings.plugins": 2  # Disable video loading
+    }
+    chrome_options.add_experimental_option("prefs", prefs)
+
+    driver = webdriver.Chrome(options=chrome_options)
     driver.get(url)
     
-    time.sleep(2)
+    time.sleep(1)
 
     # Scroll to the bottom of the page
     last_height = driver.execute_script("return document.body.scrollHeight")
 
     while True:
-        time.sleep(0.3)
+        time.sleep(0.4)
         driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
-        time.sleep(0.3)
+        time.sleep(0.4)
         new_height = driver.execute_script("return document.body.scrollHeight")
         if new_height == last_height:
             break

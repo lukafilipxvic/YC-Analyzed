@@ -14,11 +14,12 @@ class Founder(BaseModel):
     Founder_twitter_url: Optional[str] = Field(description="Their Twitter Profile URL.", default=None)
 
 class YC_Company(BaseModel):
-    Name: str = Field(description="Name of the company.")
+    Name: str = Field(description="Name of the company: No commas ','")
     Status: Literal["Active", "Inactive", "Acquired", "Public"] = Field(description="Status of the company.")
-    Batch: str = Field(description="YC batch of participation.")
+    Batch: str = Field(description="YC batch code of participation.")
     Team_size: int = Field(description="Team size.")
-    Website: str = Field(description="Link to their website.")
+    #Tags: list[str] = Field(description="Tags of the company.")
+    Website: Optional[str] = Field(description="Link to their website.")
     #Founders: List[Founder]
 
 os.environ['GROQ_API_KEY'] = os.getenv('GROQ_API_KEY')
@@ -45,7 +46,7 @@ def extract_urls(input):
 
 def extract_company_details(input):
     resp = client.chat.completions.create(
-        model="llama-3.2-11b-text-preview",
+        model="llama-3.1-70b-versatile", # Rotate between llama-3.1-70b-versatile, llama-3.2-11b-text-preview, llama3-70b-8192 or llama-3.2-90b-text-preview	
         messages=[
             {
                 "role": "system",

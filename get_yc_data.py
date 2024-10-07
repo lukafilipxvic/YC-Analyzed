@@ -4,13 +4,21 @@ from bs4 import BeautifulSoup
 import time
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
+from markdownify import markdownify as md
 
 from get_urls import get_all_urls
 from language_model import extract_urls, extract_company_details
 import pandas as pd
 
 def scrape_individual_yc_company_page(company_url: str):
-    driver = webdriver.Chrome()
+    chrome_options = webdriver.ChromeOptions()
+    prefs = {
+        "profile.managed_default_content_settings.images": 2,  # Disable image loading
+        "profile.managed_default_content_settings.plugins": 2  # Disable video loading
+    }
+    chrome_options.add_experimental_option("prefs", prefs)
+
+    driver = webdriver.Chrome(options=chrome_options)
     driver.get(company_url)
     
     WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.TAG_NAME, "a")))
@@ -27,11 +35,14 @@ def scrape_individual_yc_company_page(company_url: str):
 
     soup = BeautifulSoup(driver.page_source, 'html.parser')
     page_content_div = soup.find('div', {'data-page': True})
+      
     if page_content_div:
         page_content = page_content_div.get_text()
+        page_content_md = md(str(page_content))
+
         links = [a['href'] for a in page_content_div.find_all('a', href=True)]
         links = [link for link in links if not link.startswith("/")]
-        return page_content, links
+        return page_content_md, links
     else:
         print("Page content div not found.")
         return None, None
@@ -90,10 +101,6 @@ if __name__ == "__main__":
             company_details = extract_company_details(company_yc_page)
 
             directory.write(f"{company_details['Name']},{company_details['Status']},{company_details['Batch']},{company_details['Team_size']},{company_details['Website']}\n")
-
-            # Save the last completed row
-            with open('last_completed_row.txt', 'w', encoding='utf-8') as txt_file:
-                txt_file.write(str(index + 1))
 
 # Get the company's current global google trends score, use the peak of ChatGPT, Facebook or YouTube as 100 points.
 # Search the internet to get their current annual revenue/valuation.
