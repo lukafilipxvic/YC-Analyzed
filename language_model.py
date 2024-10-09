@@ -1,6 +1,7 @@
 import os
 from pydantic import BaseModel, Field
 from typing import List, Literal, Optional
+from cerebras.cloud.sdk import Cerebras
 from groq import Groq
 import instructor
 
@@ -17,19 +18,20 @@ class YC_Company(BaseModel):
     Name: str = Field(description="Name of the company: No commas ','")
     Status: Literal["Active", "Inactive", "Acquired", "Public"] = Field(description="Status of the company.")
     Batch: str = Field(description="YC batch code of participation.")
-    Team_size: int = Field(description="Team size.")
+    Team_size: Optional[int] = Field(description="Team size.")
     #Tags: list[str] = Field(description="Tags of the company.")
-    Website: Optional[str] = Field(description="Link to their website.")
+    Website: Optional[str] = Field(description="Link to their website.", default=None)
     #Founders: List[Founder]
 
 os.environ['GROQ_API_KEY'] = os.getenv('GROQ_API_KEY')
+os.environ['CEREBRAS_API_KEY'] = os.getenv('CEREBRAS_API_KEY')
 
-client = Groq(api_key=os.environ.get("GROQ_API_KEY"))
-client = instructor.from_groq(client, mode=instructor.Mode.TOOLS)
+#client = instructor.from_groq(Groq(), mode=instructor.Mode.TOOLS)
+client = instructor.from_cerebras(Cerebras())
 
 def extract_urls(input):
     resp = client.chat.completions.create(
-        model="llama-3.1-70b-versatile",
+        model="llama3.1-8b",
         messages=[
             {
                 "role": "system",
@@ -46,7 +48,7 @@ def extract_urls(input):
 
 def extract_company_details(input):
     resp = client.chat.completions.create(
-        model="llama-3.1-70b-versatile", # Rotate between llama-3.1-70b-versatile, llama-3.2-11b-text-preview, llama3-70b-8192 or llama-3.2-90b-text-preview	
+        model="llama3.1-8b", # Rotate between llama-3.1-70b-versatile, llama-3.2-11b-text-preview, llama3-70b-8192 or llama-3.2-90b-text-preview. Cerebeas: llama3.1-70b
         messages=[
             {
                 "role": "system",

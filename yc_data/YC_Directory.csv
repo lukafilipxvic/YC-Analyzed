@@ -1302,7 +1302,7 @@ Bulletin,Acquired,W17,15,https://bulletin.co
 Breaker,Acquired,W17,1,https://www.breaker.audio
 Tetra,Acquired,W17,2,https://asktetra.com
 WaystoCap,Acquired,W17,38,https://waystocap.com
-Supr Daily,Acquired,W17,200000,http://www.suprdaily.com/
+Supr Daily,Acquired,W17,0,http://www.suprdaily.com/
 Hivy,Acquired,W17,0,https://hivyapp.com
 Penny,Acquired,W17,2,https://www.pennyapp.io
 Armory,Acquired,W17,90,http://armory.io
@@ -3492,7 +3492,7 @@ Salt,Active,W22,14,https://salt.pe
 NearWave,Active,W22,3,http://nearwave.co
 Stairs Financial,Active,W22,0,https://stairsfinancial.com
 PermitFlow,Active,W22,50,http://www.permitflow.com
-Power to the Brand,Active,W22,4,https://powertothebrand.com/AI Co\-Pilot for Customer Support Teams
+Power to the Brand,Active,W22,4,https://powertothebrand.com
 Mintlify,Active,W22,11,https://mintlify.com
 SkyLink,Active,W22,12,http://www.tryskylink.com
 IOMETE,Active,W22,6,https://www.iomete.com
@@ -3661,7 +3661,7 @@ Instalab,Active,W22,0,https://www.instalab.com/
 Serif Health,Active,W22,6,https://www.serifhealth.com
 TAI,Active,W22,3,https://www.withtai.com
 Nara,Acquired,W22,3,https://trynara.com
-Credit card checkout for NFTs,Acquired,W22,3,https://https://Credit card checkout for NFTsStripe for NFT purchases. Easily buy/sell NFTs with a credit card.
+Winter,Acquired,W22,3,None
 Rider,Acquired,W22,180,http://withrider.com
 Joe,Acquired,W22,12,http://www.joe-app.com/en
 Fuell,Acquired,W22,23,https://getfuell.com
@@ -4020,3 +4020,915 @@ Loula,Active,W23,2,https://joinloula.com
 Sirdab,Active,W23,50,https://sirdab.co/en
 Retape,Active,W23,3,https://www.retape.ai/
 Clueso,Active,W23,3,https://clueso.io
+SuperKalam,Active,W23,12,https://superkalam.com
+Fastgen,Active,W23,7,https://fastgen.com
+Arroyo,Active,W23,2,https://www.arroyo.dev
+Vendah,Active,W23,80,https://vendah.com.br/
+Alaan,Active,W23,70,https://www.alaan.com
+Echo,Active,W23,3,https://www.echothat.ai/
+UpTrain AI,Active,W23,6,https://uptrain.ai/
+Odigos,Active,W23,9,https://odigos.io
+nunu.ai,Active,W23,4,https://nunu.ai
+Hona,Active,W23,48,https://hona.com
+Radical,Active,W23,2,https://www.radicalaero.com
+Vitalize Care,Active,W23,9,https://vitalizecare.co
+Noya Software,Active,W23,2,https://noya.io
+Infinia,Active,W23,3,https://www.infiniaweb.com/
+Hippo Scribe,Active,W23,2,https://gethipposcribe.com
+Koywe,Active,W23,7,https://koywe.com
+Finic,Active,W23,2,https://www.finic.io
+Honeydew,Active,W23,6,https://honeydew.ai
+Sherloq,Active,W23,6,http://sherloqdata.io/
+SPRX,Active,W23,11,https://sprx.tax
+Shortbread,Active,W23,3,https://www.shortbreadapp.com/
+Pointwise,Active,W23,3,http://www.getpointwise.com
+Hadrius,Active,W23,11,https://www.hadrius.com
+Technician,Active,W23,1,https://www.technician.dev
+Sage AI,Active,W23,2,https://sage-ai.dev
+Defog.ai,Active,W23,5,https://defog.ai
+Boundary,Active,W23,3,https://www.boundaryml.com
+ClickPe,Active,W23,2,https://clickpe.ai/
+FiddleCube,Active,W23,2,https://fiddlecube.ai/
+Fiber,Active,W23,4,https://fiber.dev
+Fintool,Active,W23,2,https://www.fintool.com/
+Intrinsic,Active,W23,8,https://withintrinsic.com
+222,Active,W23,6,https://222.place
+Ariglad,Active,W23,4,https://www.ariglad.com/
+Berilium,Active,W23,3,https://berilium.com/
+Homeflow,Active,W23,4,https://www.homeflow.me/
+Helicone,Active,W23,5,https://www.helicone.ai/
+Rainmaker,Active,W23,2,http://www.rainmaker.nyc
+IcePanel,Active,W23,5,https://icepanel.io
+Magicflow,Active,W23,2,https://magicflow.ai
+Storyboarder,Active,W23,2,https://storyboarder.com
+1stCollab,Active,W23,6,https://1stcollab.com
+Teclada,Active,W23,2,https://www.teclada.com/
+Orchid,Active,W23,4,https://orchid.health
+GoodCourse,Active,W23,8,https://www.goodcourse.co
+Forfeit,Active,W23,2,https://www.forfeit.app/
+TableFlow,Active,W23,2,https://tableflow.com
+Truewind,Active,W23,12,https://www.truewind.ai/
+BuildJet,Active,W23,2,https://buildjet.com
+ShortLoop,Active,W23,5,https://shortloop.dev/
+Wild Moose,Active,W23,3,https://wildmoose.ai
+EzDubs,Active,W23,4,http://www.ezdubs.ai
+GradientJ,Active,W23,2,https://www.gradientj.com
+Inkeep,Active,W23,7,https://inkeep.com
+Plutis,Active,W23,2,https://plutis.io
+Choppy!,Active,W23,2,http://www.eatchoppy.com
+Ruuf,Active,W23,12,https://www.ruuf.cl
+OpenMeter,Active,W23,7,https://openmeter.io
+Propexo,Active,W23,6,https://propexo.com
+Iliad,Active,W23,1,https://iliad.ai
+Squack,Active,W23,3,http://squack.io
+Floworks,Active,W23,13,https://floworks.ai
+Extend,Active,W23,5,https://www.extend.app/
+Langfuse,Active,W23,5,https://langfuse.com
+Codev,Active,W23,2,https://co.dev/
+Outerbase,Active,W23,4,https://www.outerbase.com
+Anarchy Labs,Active,W23,5,https://anarchy.ai
+Bluedot,Active,W23,11,https://thebluedot.co/
+Dream3D,Active,W23,3,https://dream3d.com
+Socap.ai,Active,W23,10,https://www.socap.ai
+Kivo Health,Active,W23,5,https://kivohealth.com
+coil inc,Active,W23,1,http://www.trycoil.com
+Haven,Active,W23,3,https://www.usehaven.ai/
+Suger,Active,W23,6,https://www.suger.io/
+Cobblestone,Active,W23,3,https://getcobblestone.com
+Frigade,Active,W23,4,https://frigade.com
+0pass,Active,W23,5,https://0pass.com
+Polo,Active,W23,5,https://polotab.com
+Cloudchipr,Active,W23,8,cloudchipr.com
+Athina AI,Active,W23,5,https://athina.ai
+Chart,Active,W23,2,https://trychartapi.com
+Bujeti,Active,W23,10,https://www.bujeti.com
+Index,Active,W23,2,https://index.inc
+Cosine,Active,W23,6,http://www.cosine.sh
+Flower,Active,W23,15,https://flower.ai
+Pirros,Active,W23,6,http://pirros.io
+LinkGrep,Active,W23,2,https://linkgrep.com
+Bluebirds,Active,W23,6,https://www.bluebirds.ai
+Trigo,Active,W23,2,https://trigodata.com/
+Neptyne,Active,W23,4,https://neptyne.com
+Scanbase,Acquired,W23,3,https://www.scanbase.com
+Vooma,Active,W23,3,https://www.vooma.ai
+CreatorML,Active,W23,6,https://creatorml.com
+Coperniq,Active,W23,6,https://coperniq.io
+GovEagle,Active,W23,2,https://www.goveagle.com/
+PoplarML,Active,W23,2,http://poplarml.com
+LaunchFlow,Active,W23,3,https://www.launchflow.com/
+FlexWash,Active,W23,2,https://www.flexwashtech.com/
+Gluetrail,Active,W23,2,https://www.gluetrail.com
+JustPaid.ai,Active,W23,10,https://www.justpaid.ai
+OfOne,Active,W23,5,https://www.of.one
+Narrative,Active,W23,3,https://www.trynarrative.com/
+Omnistrate,Active,W23,15,http://www.omnistrate.com
+Tennr,Active,W23,19,https://www.tennr.com
+Cakework,Active,W23,2,https://www.cakework.com
+EdgeBit,Active,W23,5,https://edgebit.io
+Salient,Active,W23,9,https://www.trysalient.com
+ZeroDev,Active,W23,5,https://zerodev.app/
+Ruby Card,Active,W23,3,https://www.spendruby.com
+Pledge Health,Active,W23,2,https://www.pledge.health
+Versive,Active,W23,3,https://www.getversive.com/
+Glass Health,Active,W23,2,http://glass.health
+Double – Coding Copilot,Active,W23,2,https://double.bot
+Byterat,Active,W23,4,https://www.byterat.io
+Pair AI,Active,W23,2,https://www.pairai.com/
+Mercoa,Active,W23,2,http://mercoa.com
+Numeral,Active,W23,20,https://numeralhq.com/
+Rubber Ducky Labs,Active,W23,1,https://www.rubberduckylabs.io/
+Nango,Active,W23,6,https://nango.dev
+Palomma,Active,W23,5,http://www.palomma.com
+CodeComplete,Active,W23,2,https://codecomplete.ai
+Brewit,Active,W23,4,https://brewit.ai/
+Hammr,Active,W23,7,https://www.hammr.com
+Fabra,Active,W23,2,https://www.demospace.ai
+Trackstar,Active,W23,6,https://www.trackstarhq.com/
+Nebula,Active,W23,2,https://www.trynebula.com/
+FlexDesk,Active,W23,2,https://www.flexdesk.com/
+Dashdive,Inactive,W23,2,https://dashdive.com
+Pyq AI,Active,W23,2,https://www.pyqai.com
+Backdrop,Active,W23,2,https://www.joinbackdrop.com
+Latent,Active,W23,12,https://latenthealth.com
+Concourse,Active,W23,5,https://concourse.co/
+Lume,Active,W23,5,https://www.lume.ai
+SelectIQ,Active,W23,2,https://www.selectiq.com
+Pigeon,Active,W23,5,https://www.pigeondocuments.com/
+Paperplane,Active,W23,5,https://www.paperplane.ai
+Depot,Active,W23,5,https://depot.dev
+Rollstack,Active,W23,15,https://www.rollstack.com
+Magic Patterns,Active,W23,2,https://www.magicpatterns.com
+Credal.ai,Active,W23,8,https://credal.ai
+Layup Labs,Active,W23,3,http://www.layuplabs.ai
+Doctor Droid,Active,W23,6,https://drdroid.io/
+Syncly,Active,W23,9,https://syncly.app/
+Struct,Active,W23,3,https://struct.app
+Versori,Active,W23,16,https://www.versori.com/
+Trigger.dev,Active,W23,5,https://trigger.dev
+rift,Active,W23,8,https://rift.com
+Traceloop,Active,W23,6,https://www.traceloop.com
+Matano,Active,W23,2,https://www.matano.dev
+Linum,Active,W23,3,https://www.linum.ai/
+OneText,Active,W23,6,https://onetext.com
+Reflex,Active,W23,8,https://reflex.dev
+Miracle,Active,W23,3,http://www.miracleml.com
+Finvest,Active,W23,2,https://www.getfinvest.com/
+Laminate,Active,W23,0,https://www.uselaminate.com
+Designbase,Active,W23,3,https://www.designbase.com/
+Stack AI,Active,W23,6,https://stack-ai.com/
+Middleware,Active,W23,40,https://www.middleware.io
+Infisical,Active,W23,15,https://infisical.com
+Avoca,Active,W23,2,https://www.avoca.ai/
+Rubbrband,Active,W23,3,https://rubbrband.com
+Nucleus,Active,W23,3,https://usenucleus.ai/
+Sameday,Active,W23,7,https://www.gosameday.com/
+Chima,Active,W23,7,https://www.withchima.com/
+Lavo Life Sciences,Active,W23,3,https://www.lavo.ai/
+AlphaWatch AI,Active,W23,4,https://alphawatch.ai
+Unify,Active,W23,10,https://unify.ai
+Fairway Health,Acquired,W23,3,https://www.fairwayhealth.co/
+Booth AI,Acquired,W23,3,https://booth.ai
+Viddy,Active,W23,2,https://www.viddyapp.io/
+Cardinal,Acquired,W23,3,http://cardinalapp.io
+Interlock,Inactive,W23,2,https://www.tryinterlock.com/
+Defer,Inactive,W23,2,https://www.defer.run
+OutSail Technologies,Inactive,W23,3,https://www.outsailtech.com/
+Overflux,Inactive,W23,2,https://www.linkedin.com/company/overflux/
+OpenSight,Inactive,W23,3,https://www.opensight.ai
+Parabolic,Inactive,W23,2,https://www.growparabolic.com/
+Blyss,Inactive,W23,2,https://blyss.dev/
+Mogara,Inactive,W23,2,https://mogara.com
+OpenPipe,Active,S23,2,https://openpipe.ai/
+Flex,Active,S23,5,https://withflex.com/
+Martin,Active,S23,3,https://www.trymartin.com/
+Healthtech 1,Active,S23,13,https://www.healthtech1.uk/
+Feanix Biotechnologies,Active,S23,5,https://www.feanixbio.com/
+Orbio Earth,Active,S23,8,https://www.orbio.earth/
+CodeStory,Active,S23,2,https://codestory.ai
+CatX,Active,S23,2,https://catx.re
+Coba,Active,S23,9,https://www.coba.ai
+Taylor AI,Active,S23,2,https://trytaylor.ai
+Tempo Labs,Active,S23,2,https://www.tempolabs.ai/
+Curatle,Active,S23,1,https://curatle.com
+Autotab,Active,S23,2,https://autotab.com
+Flair Health,Active,S23,2,https://www.flairhealth.com
+Olio Labs,Active,S23,2,https://oliolabs.co/
+truemetrics,Active,S23,5,https://www.truemetrics.io/
+Glide,Active,S23,2,https://paywithglide.xyz
+Wattson Health,Active,S23,3,https://www.wattsonhealth.com
+Constructable,Active,S23,3,https://www.constructable.ai/
+innkeeper,Active,S23,2,https://innkeeper.ai
+Nowadays,Active,S23,3,http://getnowadays.com/
+Structured,Active,S23,3,https://www.structuredlabs.com/
+Twine,Active,S23,4,http://www.usetwine.com
+Srcbook,Active,S23,2,https://srcbook.com
+Simbie Health,Active,S23,3,http://www.simbiehealth.com
+Foundation,Active,S23,4,https://buildwithfoundation.com/
+AiSDR,Active,S23,5,https://aisdr.com/
+Giga ML,Active,S23,2,https://gigaml.com
+Affinity,Active,S23,2,https://itsaffinity.com
+FlowiseAI,Active,S23,5,https://flowiseai.com
+Shadeform,Active,S23,3,https://www.shadeform.ai/
+Inconvo,Active,S23,2,https://inconvo.ai
+Cargo,Active,S23,5,https://getcargo.io
+CheqUPI,Active,S23,15,https://www.cheq.money
+Roame,Active,S23,3,https://roame.travel/
+dili,Active,S23,4,https://www.dili.ai
+Instaclass,Active,S23,3,https://myinstaclass.com/
+Trayd,Active,S23,4,https://www.buildtrayd.com/
+Cair Health,Active,S23,6,https://www.cairhealth.com/
+ParadeDB,Active,S23,4,https://paradedb.com
+Eden Care,Active,S23,28,https://www.edencaremedical.com/
+Quill AI,Active,S23,2,https://quillai.com
+Strada,Active,S23,4,https://www.getstrada.com
+AgentsForce,Active,S23,2,https://www.agentsforce.com/
+Smobi,Active,S23,2,https://smobi.com/
+Tiptap,Active,S23,15,https://tiptap.dev/
+RecipeUI,Active,S23,2,https://recipeui.com
+Fiber AI,Active,S23,8,https://fiber.ai/
+OpsBerry AI,Active,S23,2,https://opsberry.ai
+Certainly Health,Active,S23,2,https://certainlyhealth.com
+Cedalio,Active,S23,6,https://cedalio.com
+Happyrobot,Active,S23,7,https://happyrobot.ai
+Pure,Active,S23,5,https://www.collectpure.com/
+Nanograb,Active,S23,3,https://nanograb.com
+Elythea,Active,S23,2,https://elythea.org/
+Movley,Active,S23,6,https://movley.com/
+Santé,Active,S23,2,https://santehq.com/
+Langdock,Active,S23,9,https://langdock.com
+Inventive AI,Active,S23,5,https://www.inventive.ai/
+SyntheticFi,Active,S23,2,https://www.syntheticfi.com
+Fragment,Active,S23,2,https://checkfragment.com
+Raz,Active,S23,2,https://www.tryraz.com
+sudocode,Active,S23,2,https://sudocode.ai
+Sweep,Active,S23,3,https://sweep.dev/
+Silimate,Active,S23,2,https://www.silimate.com
+Andromeda Surgical,Active,S23,10,http://www.andromedasurgical.com
+ProdTrace,Active,S23,2,https://www.prodtrace.com/
+Inari,Active,S23,2,https://useinari.com
+Roundtable,Active,S23,2,https://roundtable.ai
+DisputeNinja,Active,S23,2,https://www.disputeninja.io
+Envelope,Active,S23,2,https://envelopebudgeting.com
+VectorShift,Active,S23,8,https://www.vectorshift.ai
+SafetyKit,Active,S23,5,https://www.safetykit.com/
+Baserun,Active,S23,2,https://baserun.ai
+Automorphic,Active,S23,3,https://automorphic.ai/
+Glaze,Active,S23,3,https://www.useglaze.com
+Sola,Active,S23,5,https://www.sola-solutions.com/
+Inlet,Active,S23,2,https://getinlet.ai
+Converge,Active,S23,6,http://www.runconverge.com
+Flint,Active,S23,6,http://flintk12.com
+CambioML,Active,S23,3,https://www.cambioml.com/
+Osium AI,Active,S23,2,https://osium.ai/
+Slicker AI,Active,S23,2,https://www.slickerhq.com
+Khoj,Active,S23,2,https://khoj.dev/
+VaultPay,Active,S23,2,https://vaultpay.io
+Crew,Active,S23,4,https://www.trycrew.ai
+gleam,Active,S23,2,https://www.gleamcare.com/
+Kobalt Labs,Active,S23,2,https://www.kobaltlabs.com/
+Studdy,Active,S23,4,https://www.studdy.ai/
+Trainy,Active,S23,2,https://trainy.ai/
+MantleBio,Active,S23,7,https://www.mantlebio.com
+Pincites,Active,S23,3,https://www.pincites.com/
+Apoxy,Active,S23,2,https://apoxy.dev
+sizeless,Active,S23,2,https://www.sizeless.co
+Quack AI,Active,S23,1,https://www.quackai.com/
+Continue,Active,S23,4,https://continue.dev
+Letter AI,Active,S23,4,https://www.letter.ai
+Guac,Active,S23,5,https://www.guac-ai.com/
+CareOasis,Active,S23,2,https://thecareoasis.com
+Glade,Active,S23,2,https://gladestudio.ai/
+LifestyleRx,Active,S23,9,https://lifestylerx.io/
+Empirical Health,Active,S23,5,https://empirical.health
+Fortuna Health,Active,S23,5,https://fortunahealth.com/
+Aglide,Active,S23,2,https://aglide.com
+Respaid,Active,S23,40,https://www.respaid.com
+Vizly,Active,S23,2,https://vizly.fyi
+Revideo,Active,S23,2,https://re.video
+Greenlite,Active,S23,6,https://www.greenlite.ai/
+MediSearch,Active,S23,4,https://medisearch.io
+Metalware,Active,S23,2,https://www.metalware.com/
+Upstream,Active,S23,2,https://www.upstream.do/
+Maven Bio,Active,S23,4,https://mavenbio.io
+Egress Health,Active,S23,2,https://tryegress.com
+Surface Labs,Active,S23,5,https://withsurface.com
+CandorIQ,Active,S23,4,https://www.candoriq.com/
+refine,Active,S23,10,https://refine.dev
+Epsilla,Active,S23,3,https://epsilla.com
+Lysto AI,Active,S23,2,https://lysto.ai
+VetRec,Active,S23,4,https://vetrec.io
+Cleancard,Active,S23,8,https://www.cleancard.bio
+Decoda Health,Active,S23,4,https://decodahealth.com/
+Skyvern,Active,S23,3,https://www.skyvern.com/
+Cardinal Gray,Active,S23,3,https://www.cardinalgray.com/
+Telophase,Active,S23,2,https://telophase.dev
+Dialtone,Active,S23,2,https://usedialtone.com
+Transformity,Active,S23,3,https://transformity.tech/
+Repaint,Active,S23,2,https://repaint.com
+Chow Central Inc,Active,S23,30,https://chowcentral.com
+FleetWorks,Active,S23,2,https://fleetworks.ai
+Menza,Active,S23,2,https://menza.ai/
+Health Harbor,Active,S23,4,https://healthharbor.co/
+Briefer,Active,S23,2,https://briefer.cloud
+Shasta Health,Active,S23,2,https://www.shasta.health
+Hegel AI,Active,S23,2,https://hegel-ai.com
+Outset,Active,S23,6,https://outset.ai/
+Serra,Active,S23,2,https://www.serra.io/
+Corgea,Active,S23,4,https://www.corgea.com/
+Terminal,Active,S23,7,https://www.withterminal.com/
+MICSI,Active,S23,2,https://www.micsi.co/
+CraftOS,Active,S23,3,http://craftos.com
+Arcimus,Active,S23,2,https://www.arcimus.com/
+Docsum,Active,S23,2,https://www.docsum.ai/
+Obento Health,Active,S23,2,https://www.getobento.com
+Kite,Active,S23,2,https://kite.video
+Bronco AI,Active,S23,3,https://www.bronco.ai/
+Agentive,Active,S23,6,https://www.goagentive.com
+venta,Active,S23,5,https://www.getventa.ai
+Parea,Active,S23,2,https://www.parea.ai
+Campfire,Active,S23,4,https://meetcampfire.com/
+Alguna,Active,S23,5,https://alguna.io
+SID,Active,S23,3,https://www.sid.ai
+Capi Money,Active,S23,5,https://www.capimoney.com
+SuperCraft,Active,S23,1,https://supercraft.ai
+Spine AI,Active,S23,5,https://www.getspine.ai
+Empower,Active,S23,2,https://www.empower.dev
+Subsets,Active,S23,5,https://www.subsets.com
+Tegon,Active,S23,3,https://www.tegon.ai
+Synch,Active,S23,4,https://www.withsynch.com/
+Revamp,Active,S23,2,https://www.getrevamp.ai
+DataShare,Active,S23,1,http://datashare.co/
+Airgoods,Active,S23,5,https://airgoods.com/
+Talc,Active,S23,3,https://talc.ai
+Solve Intelligence,Active,S23,7,https://www.solveintelligence.com/
+askLio,Active,S23,3,https://www.asklio.ai
+Craftwork,Active,S23,45,https://craftwork.com/
+Electric Air,Active,S23,2,https://www.electricair.io/
+Mandel AI,Active,S23,3,https://www.mandel.ai/
+Every,Active,S23,12,https://every.io/
+Contour,Active,S23,2,https://trycontour.com
+Atla,Active,S23,8,https://www.atla-ai.com/
+Humanlike,Active,S23,1,https://humanlike.app/
+Lifelike,Active,S23,2,https://lifelike.app/
+Cedana,Active,S23,5,https://cedana.ai
+Cascading AI,Active,S23,6,https://www.cascading.ai/
+Zelos Cloud,Active,S23,3,https://zeloscloud.io
+Readily,Active,S23,4,https://readily.co
+PropRise,Active,S23,3,https://www.proprise.io/
+Pointhound,Active,S23,4,http://www.pointhound.com
+Diligent,Active,S23,2,https://godiligent.ai
+Bland AI,Active,S23,13,https://bland.com
+Sohar Health,Active,S23,3,https://www.soharhealth.com
+Remy,Active,S23,4,https://www.remysec.com/
+Sweetspot,Active,S23,3,https://www.sweetspot.so
+Magic Loops,Active,S23,2,https://magicloops.dev
+Ohmic Biosciences,Active,S23,2,https://ohmicbiosciences.com/
+Stellar Sleep,Active,S23,5,https://stellarsleep.com/
+Infobot,Active,S23,3,https://infobot.ai
+Linc,Active,S23,3,https://www.linc-ai.com/
+Watto AI,Active,S23,3,https://www.watto.ai
+Dioxus Labs,Active,S23,4,https://dioxuslabs.com
+Hyperbound,Active,S23,3,https://hyperbound.ai
+Deasie,Active,S23,3,https://www.deasie.com
+Accend,Active,S23,3,https://www.withaccend.com/
+Elyos Energy,Active,S23,7,https://www.elyosenergy.com
+Mano Health,Active,S23,3,https://www.manohealth.com/
+Metoro,Active,S23,2,https://metoro.io
+Twenty,Active,S23,3,https://twenty.com
+Synaptiq,Active,S23,3,https://synaptiq.co/
+Nectar,Active,S23,2,https://nectarclimate.com
+Reworkd,Active,S23,7,https://reworkd.ai
+Leafpress,Active,S23,2,https://www.leafpress.ai
+Kino AI,Active,S23,2,https://kino.ai
+kapa.ai,Active,S23,8,https://www.kapa.ai/
+Tremor,Active,S23,2,https://www.tremor.so
+Artie,Active,S23,5,https://www.artie.com/
+HyLight,Active,S23,9,https://www.hylight.aero/
+HockeyStack,Active,S23,11,https://hockeystack.com
+Can of Soup,Active,S23,2,https://canofsoup.com/
+Cercli,Active,S23,2,https://www.cercli.com
+Chatter,Active,S23,2,https://www.trychatter.ai/
+PeerDB,Acquired,S23,2,https://peerdb.io/
+Onward,Inactive,S23,4,https://onwardhq.com
+Saatvy,Inactive,S23,1,https://saatvy.com
+Kips Health,Inactive,S23,2,https://kipshealth.com
+Line.Build,Inactive,S23,3,https://www.line.build/
+Vango AI,Inactive,S23,2,https://vango.ai/
+Unhaze,Active,S23,6,https://unhaze.ai
+Sidenote,Inactive,S23,3,https://www.sidenote.ai
+Xeol,Active,S23,3,https://www.xeol.io/
+Branch AI,Inactive,S23,3,https://www.branch-ai.com
+Alacrity,Active,W24,2,http://www.joinalacrity.com
+ParcelBio,Active,W24,3,https://parcelbio.com/
+K-Scale Labs,Active,W24,4,https://kscale.dev/
+Marr Labs,Active,W24,9,https://www.marrlabs.com/
+Forge Rewards,Active,W24,2,https://www.joinforge.app/
+Dropback,Active,W24,2,https://www.dropback.com
+RetailReady,Active,W24,3,https://www.retailreadyai.com/
+Million,Active,W24,3,https://million.dev
+NowHouse,Active,W24,0,https://www.nowhouse.io
+getcrux,Active,W24,9,http://getcrux.ai/
+Reprompt,Active,W24,2,https://repromptai.com
+InspectMind AI,Active,W24,5,https://www.inspectmind.ai
+Yarn,Active,W24,2,https://www.yarn.so
+Blacksmith,Active,W24,3,https://blacksmith.sh/
+CrowdVolt,Active,W24,3,https://crowdvolt.com/
+kater.ai,Active,W24,3,https://www.kater.ai
+Mathos AI (Formerly MathGPTPro),Active,W24,5,https://info.mathgptpro.com/
+Tower,Active,W24,2,https://withtower.com
+Quivr,Active,W24,3,https://www.quivr.app/
+Dragoneye,Active,W24,2,https://dragoneye.ai/
+renderlet,Active,W24,2,http://renderlet.com
+Fume,Active,W24,2,https://fumedev.com
+The New Money Company,Active,W24,3,https://newmoneycompany.com
+Forge,Active,W24,2,https://www.forgehq.com/
+Taiki,Active,W24,2,https://www.taiki.ai
+Konstructly,Active,W24,6,https://konstructly.com/
+Pico,Active,W24,2,http://withpico.com
+Granza Bio,Active,W24,2,https://www.granzabio.com
+Haplotype Labs,Active,W24,1,https://www.haplotypelabs.com/
+Healia,Active,W24,2,https://www.healiahealth.com/
+TrueClaim,Active,W24,2,https://www.trytrueclaim.com
+CoCrafter,Active,W24,3,https://cocrafter.com/
+Reform,Active,W24,3,https://www.reformhq.com
+Piramidal,Active,W24,2,https://piramidal.ai
+Junction Bioscience,Active,W24,1,https://www.junction.bio/
+OddsView,Active,W24,5,https://oddsview.com
+Silogy,Active,W24,3,https://silogy.io
+Senso,Active,W24,2,http://www.senso.ai
+Eris Biotech,Active,W24,2,http://www.erisbio.com
+Powder,Active,W24,6,https://www.powderfi.com/
+OpenFoundry,Active,W24,2,https://www.openfoundry.ai/
+GoldenBasis,Active,W24,2,https://www.goldenbasis.com
+Penciled,Active,W24,2,https://penciled.com
+Magic Hour,Active,W24,2,https://magichour.ai
+Ryse,Active,W24,13,https://www.rysemarket.com/
+Lumona,Active,W24,2,https://www.lumona.ai
+Datacurve,Active,W24,4,https://datacurve.ai
+Marblism,Active,W24,2,https://marblism.com
+CommodityAI,Active,W24,3,https://commodityai.io/
+Veles,Active,W24,3,http://www.getveles.com
+Miden,Active,W24,10,http://www.miden.co
+Fluently,Active,W24,2,https://getfluently.app/
+Basepilot,Active,W24,2,https://www.basepilot.com/
+Aqua Voice,Active,W24,3,https://withaqua.com
+xPay,Active,W24,3,https://www.xpaycheckout.com/
+DeepNight,Active,W24,3,https://www.deepnight.ai/
+Vista Power,Active,W24,2,https://vistapower.com
+ForEffect,Active,W24,1,https://foreffect.ai
+Ocular AI,Active,W24,2,https://useocular.com
+Retell AI,Active,W24,5,https://retellai.com
+Rove,Active,W24,2,http://rovecard.com
+camelAI,Active,W24,3,https://camelai.com/
+Spark,Active,W24,2,https://www.sparkhq.ai
+Titan,Active,W24,1,https://applytitan.com
+Terrakotta,Active,W24,3,https://www.terrakotta.ai/
+Stacksync,Active,W24,4,https://www.stacksync.cloud/
+Hatchet,Active,W24,2,https://hatchet.run
+Shepherd,Active,W24,5,https://www.shepherd.study
+Sonauto,Active,W24,2,https://sonauto.ai
+BiteSight,Active,W24,2,http://bitesight.com
+Velorum Therapeutics,Active,W24,3,https://www.velorumtx.com/
+Zep AI,Active,W24,5,https://www.getzep.com/
+Openmart,Active,W24,2,https://www.openmart.com
+Triply,Active,W24,18,https://business.triply.co/
+Amber AI,Active,W24,2,https://helloamber.ai/
+Thorntale,Active,W24,3,https://thorntale.com
+Alai,Active,W24,2,https://getalai.com
+PocketPod,Active,W24,2,https://pocketpod.app
+Sample,Active,W24,2,https://samplehc.com
+Brainbase,Active,W24,4,https://usebrainbase.com
+Focal,Active,W24,2,https://focalml.com
+Givefront,Active,W24,2,https://givefront.com
+Cleva,Active,W24,13,https://www.getcleva.com
+Oma Care,Active,W24,2,https://www.omacare.com
+Artos,Active,W24,2,https://www.artosai.com
+Model ML,Active,W24,2,https://www.modelml.com/
+BetterBasket,Active,W24,4,http://betterbasket.ai
+Circleback,Active,W24,3,https://circleback.ai
+just words,Active,W24,2,https://justwords.ai
+Risotto,Active,W24,3,https://tryrisotto.com
+DianaHR,Active,W24,3,http://www.dianahr.ai
+HeartByte,Active,W24,2,https://heartbyte.ai
+Yondu,Active,W24,3,https://yondu.ai/
+Dawn,Active,W24,5,https://www.dawnai.com/
+Lumina,Active,W24,3,https://lumina.sh
+Centauri AI,Active,W24,3,https://centauri-ai.tech
+ProSights,Active,W24,11,https://prosights.co/
+Manifold Freight,Active,W24,2,https://www.manifoldfreight.com/
+edgetrace,Active,W24,2,https://edgetrace.ai
+Clarum,Active,W24,2,https://clarum.ai
+opencall.ai,Active,W24,5,https://opencall.ai
+Voicepanel,Active,W24,2,https://voicepanel.com
+Petra Security,Active,W24,2,https://petrasecurity.com
+Abel,Active,W24,2,https://www.tryabel.com
+OffDeal,Active,W24,2,https://offdeal.io
+Delve,Active,W24,3,https://www.getdelve.com
+Andy AI,Active,W24,2,https://with-andy.com
+Hazel,Active,W24,2,https://hazeltech.ai/
+Shiboleth,Active,W24,2,https://www.shiboleth.ai/
+Aftercare,Active,W24,3,https://getaftercare.com
+Soundry AI,Active,W24,3,https://soundry.ai/
+Elodin,Active,W24,5,https://elodin.systems/
+HostAI,Active,W24,4,https://www.hostai.app/
+Trieve,Active,W24,5,https://trieve.ai
+Tensorfuse,Active,W24,2,https://www.tensorfuse.io/
+Toma,Active,W24,2,http://www.toma.com/
+Carma,Active,W24,11,https://www.joincarma.com/
+Preloop,Active,W24,2,https://www.preloop.com
+Superagent,Active,W24,2,https://superagent.sh/
+Bilanc,Active,W24,2,https://www.bilanc.co
+PySpur,Active,W24,2,http://pyspur.com
+Browser Buddy,Active,W24,3,https://www.browserbuddy.com/
+Astro Mechanica,Active,W24,8,https://astromecha.co/
+CodeAnt AI,Active,W24,3,https://codeant.ai/
+Draftaid,Active,W24,3,https://draftaid.io/
+Metofico,Active,W24,2,https://metofico.com/
+Ellipsis,Active,W24,2,https://ellipsis.dev
+Dime,Active,W24,2,https://www.getdime.io
+Lytix,Active,W24,2,https://lytix.co/
+Pythagora (GPT Pilot),Active,W24,6,https://pythagora.ai/
+Wuri,Active,W24,7,https://www.wuri.co/
+Open,Active,W24,7,https://open.cx
+Aedilic,Active,W24,2,https://www.gpudeploy.com
+Salvy,Active,W24,12,https://www.salvy.com.br
+Centralize,Active,W24,2,https://www.usecentralize.com/
+phospho,Active,W24,3,https://phospho.ai
+Quantic,Active,W24,2,https://www.quanticresearch.com
+Resonance,Active,W24,1,https://www.useresonance.com/
+Firebender,Active,W24,2,https://firebender.com
+Aether Energy,Active,W24,4,https://www.aethernrg.com/
+Kiosk,Active,W24,5,https://www.kiosk.so/
+Ragas,Active,W24,2,https://www.ragas.io
+sync,Active,W24,5,https://sync.so/
+PandasAI,Active,W24,3,https://pandas-ai.com
+Infinity,Active,W24,4,https://www.infinityapp.in/
+InQuery,Active,W24,2,https://www.inquery.ai/
+Markprompt,Active,W24,2,https://markprompt.com
+Tamarind Bio,Active,W24,2,https://www.tamarind.bio
+Anaphero,Active,W24,2,https://www.anaphero.com/
+Swift,Active,W24,2,https://joinswift.app
+Intercept,Active,W24,2,https://tryintercept.com/
+Toolify,Active,W24,2,https://toolify.sh
+Decipher AI,Active,W24,2,https://getdecipher.com
+Infinity AI,Active,W24,3,https://infinity.ai
+Double,Active,W24,5,https://double.finance/
+Speck,Active,W24,2,https://paige.sh
+Guide Labs,Active,W24,2,https://www.guidelabs.ai/
+OmniAI,Active,W24,4,https://getomni.ai
+Keywords AI,Active,W24,4,https://keywordsai.co
+PromptArmor,Active,W24,2,https://promptarmor.com/
+Zaymo,Active,W24,3,https://zaymo.com
+Glimmer,Active,W24,2,https://www.withglimmer.com/
+Celest,Active,W24,1,https://celest.dev
+Meticulate,Active,W24,2,https://meticulate.ai
+CloudCruise,Active,W24,3,https://cloudcruise.com
+Attunement,Active,W24,2,http://attunement.ai
+Lucite,Active,W24,2,https://www.lucite.ai/
+Selera Medical,Active,W24,2,http://www.seleramedical.com
+OneGrep,Active,W24,2,https://www.onegrep.dev
+Parasale,Active,W24,2,https://parasale.io
+Tusk,Active,W24,3,https://usetusk.ai
+PartnerHQ,Active,W24,4,https://trypartnerhq.com
+atopile,Active,W24,3,http://atopile.io
+Airfront,Active,W24,2,https://www.airfront.com/
+SynsoryBio,Active,W24,2,https://www.synsorybio.com/
+Yoneda Labs,Active,W24,3,https://www.yonedalabs.com
+TokenOwl,Active,W24,2,https://tokenowl.ai
+Hona,Active,W24,3,https://www.hona.ai
+Topo,Active,W24,5,https://www.topo.io/
+Trellis,Active,W24,34,https://runtrellis.com/
+Ecliptor,Active,W24,2,https://ecliptor.ai
+Greenboard,Active,W24,5,https://www.greenboard.com
+Eggnog,Active,W24,2,https://www.eggnog.ai
+Artisan,Active,W24,16,https://artisan.co
+Octolane AI,Active,W24,2,https://www.octolane.com
+SuretyNow,Active,W24,4,https://www.suretynow.com/
+Roe AI,Active,W24,3,https://getroe.ai
+FurtherAI,Active,W24,2,https://www.furtherai.com/
+Arini,Active,W24,2,https://www.arini.ai
+Paradigm,Active,W24,3,https://www.paradigmai.com/
+PointOne,Active,W24,3,https://pointone.ai/
+Patchwork,Active,W24,2,https://atpatchwork.com/
+Starlight Charging,Active,W24,1,https://www.starlightcharging.com
+Assembly,Active,W24,3,https://www.askassembly.app/
+MathDash,Active,W24,2,https://mathdash.com
+Leaping,Active,W24,2,https://www.leaping.io
+Basalt Tech,Active,W24,2,https://basalt.space
+Carousel Technologies,Active,W24,3,https://usecarousel.com
+Agentic Labs,Active,W24,2,https://agenticlabs.com
+Fractal Labs,Active,W24,3,https://fractal-labs.gg/
+Pivot Robotics,Active,W24,5,https://pivotrobotics.com
+Aidy,Active,W24,3,https://www.aidygov.com/
+DGI Apparel,Active,W24,3,https://www.dgiapparel.com/
+Buster,Active,W24,3,http://buster.so
+Garage,Active,W24,4,https://www.withgarage.com/
+Mango Health,Active,W24,2,https://try-mango.com
+Argon AI Inc.,Active,W24,2,https://www.argon-ai.com/
+nCompass Technologies,Active,W24,2,https://www.ncompass.tech
+Pretzel AI,Active,W24,2,https://withpretzel.com
+Apriora,Active,W24,3,https://www.apriora.ai
+malibou,Active,W24,2,https://www.malibou.co
+Quary,Active,W24,2,https://www.quary.dev
+Newton,Active,W24,2,https://joinnewton.com
+Tile,Active,W24,2,https://tile.sh
+AdagyRobotics,Active,W24,2,https://www.adagyrobotics.com/
+Momentic,Active,W24,4,https://momentic.ai
+Reducto,Active,W24,4,https://reducto.ai
+Vectorview,Active,W24,2,https://vectorview.ai
+Maia,Active,W24,2,https://www.ourmaia.com
+Nuanced Inc.,Active,W24,2,https://www.nuanced.dev/
+Precip,Active,W24,3,https://precip.ai
+Tracecat,Active,W24,2,https://tracecat.com
+Kabilah,Active,W24,2,https://www.kabilah.com
+Sonia,Active,W24,3,https://soniahealth.com
+MAIHEM,Active,W24,4,https://www.maihem.ai/
+ion design,Active,W24,2,https://www.ion.design/
+Duckie,Active,W24,2,https://duckie.ai/
+Happenstance,Active,W24,3,https://happenstance.ai
+Ubicloud,Active,W24,10,https://www.ubicloud.com
+Greptile,Active,W24,6,https://www.greptile.com
+PurplePages,Active,W24,3,https://www.thepurplepages.ai/
+Ego,Active,W24,5,https://ego.live
+Leya,Active,W24,12,https://www.leya.law
+Scritch,Active,W24,2,https://www.scritchai.com
+RadMate AI,Active,W24,2,https://www.radmate.ai
+SSOReady,Active,W24,2,http://ssoready.com
+Relari,Active,W24,2,https://www.relari.ai/
+DryMerge,Active,W24,2,https://www.drymerge.com
+Navier AI,Active,W24,2,http://navier.ai
+Upsolve AI,Active,W24,4,https://upsolve.ai/
+SciPhi,Active,W24,3,https://www.sciphi.ai
+Gumloop,Active,W24,2,https://www.gumloop.com/
+Driver AI,Active,W24,11,https://www.driverai.com/
+Lantern,Active,W24,3,http://lantern.dev
+Danswer,Active,W24,6,https://www.danswer.ai/
+Yenmo,Active,W24,5,https://yenmo.in
+GovernGPT,Active,W24,2,https://www.governgpt.ai/
+Arcane,Inactive,W24,2,https://arcanelabs.ai/
+Fileforge,Inactive,W24,3,https://www.fileforge.com/
+Blume Benefits,Inactive,W24,3,https://www.blumebenefits.com/
+Stitch Technologies,Inactive,W24,0,https://www.stitch.tech
+Outerport,Active,S24,2,https://outerport.com
+DreamRP,Active,S24,2,https://www.dreamrp.com/
+Melty,Active,S24,2,https://melty.sh
+Syntra,Active,S24,2,https://www.syntra.com
+PathPilot,Active,S24,3,https://www.getpathpilot.com/
+Standard Data,Active,S24,2,https://www.standarddata.com/
+Kairo Health,Active,S24,2,https://trykairo.com/
+Midship,Active,S24,3,https://midship.ai/
+Soma Lab,Active,S24,2,https://somalab.ai
+Merlin AI,Active,S24,6,https://www.merlinai.co
+Freestyle,Active,S24,5,https://www.freestyle.sh
+Arva AI,Active,S24,2,https://www.arva-ai.com
+Affil.ai,Active,S24,2,https://affil.ai/
+OrgOrg,Active,S24,2,https://orgorg.us
+Patched,Active,S24,2,https://patched.codes
+Village Labs,Active,S24,2,https://villagelabs.app/
+Mica AI,Active,S24,3,https://usemica.com/
+Formula Insight,Active,S24,2,https://www.formulainsight.io/
+Overlap,Active,S24,3,https://www.joinoverlap.com/
+Capitol AI,Active,S24,11,https://www.capitol.ai
+Kart AI,Active,S24,2,https://kart.ai
+Void,Active,S24,2,https://voideditor.com
+Anglera,Active,S24,2,https://www.anglera.com/
+XTraffic,Active,S24,4,https://XTraffic.com/
+Felafax,Active,S24,2,https://felafax.ai
+Henry,Active,S24,3,http://www.henry.ai
+Hey Revia,Active,S24,4,https://heyrevia.ai
+Ficra,Active,S24,2,https://ficra.ai/
+RowBoat Labs,Active,S24,3,https://www.rowboatlabs.com
+Pipeshift,Active,S24,10,https://pipeshift.com
+Vera Health,Active,S24,2,https://www.vera-health.ai
+Pharos,Active,S24,3,https://pharos.health
+et al.,Active,S24,2,https://www.et-al.io
+Keet,Active,S24,2,https://trykeet.com
+Terra,Active,S24,2,https://useterra.com/
+AI Sell,Active,S24,2,https://www.aisell.com
+Diode Computers Inc.,Active,S24,2,https://diode.computer
+SureBright,Active,S24,11,https://surebright.com/
+Usul,Active,S24,3,https://www.usul.co/
+Saldor,Active,S24,2,https://saldor.com
+Bucket Robotics,Active,S24,2,https://bucket.bot
+Oway,Active,S24,8,https://www.oway.io
+Elayne,Active,S24,2,https://www.elayne.com/
+Blaze,Active,S24,5,https://blaze.money
+pap!,Active,S24,3,https://joinpap.com/
+Mindely,Active,S24,4,http://www.mindely.ai
+TradeFlow,Active,S24,2,https://www.tradeflowai.com/
+Voker,Active,S24,2,https://voker.ai
+Rastro,Active,S24,3,https://rastro.sh
+Quetzal,Active,S24,2,https://getquetzal.com/
+Weavel,Active,S24,3,https://weavel.ai
+Moreta,Active,S24,2,https://moretapay.com
+Focus Buddy,Active,S24,2,https://www.focusbuddy.ai/
+Simplifine,Active,S24,3,https://www.simplifine.com
+Sepal AI,Active,S24,3,https://www.sepalai.com
+Assembly HOA,Active,S24,6,https://assemblyhoa.com
+autarc,Active,S24,15,https://www.autarc.energy/en
+omnidock,Active,S24,3,https://www.omnidock.com
+Polymet,Active,S24,2,https://polymet.ai
+Kontigo,Active,S24,10,https://kontigo.lat/
+Remo,Active,S24,2,http://getremo.ai
+Propaya,Active,S24,2,https://www.propaya.com
+Vendra,Active,S24,2,https://vendra.io/
+Argil,Active,S24,8,https://www.argil.ai/
+ZeroPath,Active,S24,4,https://zeropath.com
+Actionbase,Active,S24,1,https://actionbase.co
+None,Active,None,0,None
+Lumen Orbit,Active,S24,3,https://www.lumenorbit.com/
+Dataleap,Active,S24,2,https://dataleap.ai/
+Zimi,Active,S24,2,https://www.withzimi.com
+Thyme,Active,S24,2,https://www.meetthyme.com/
+Ionworks,Active,S24,5,https://ionworks.com
+Rescript,Active,S24,3,https://rescript.ai
+Zigma - by NextUI,Active,S24,3,https://zigma.io
+Helium,Active,S24,3,https://tryhelium.com
+andAI,Active,S24,5,https://www.tryandai.com/
+Haystack Software,Active,S24,2,https://haystackeditor.com/
+Finosu,Active,S24,2,https://www.finosu.com
+Odo,Active,S24,2,https://www.odo.do/
+Baseline AI,Active,S24,2,https://www.baselinetrials.com/
+Zephr,Active,S24,2,https://www.zephr.ai/
+Winford AI,Active,S24,3,https://winford.ai/
+Cartage,Active,S24,8,cartage.ai
+Paasa,Active,S24,2,https://paasa.com
+Blast,Active,S24,2,https://blastsec.com
+Lilac Labs,Active,S24,2,https://www.drive-thru.ai/
+Palmier,Active,S24,2,https://www.palmier.io
+Simple AI,Active,S24,2,https://www.usesimple.ai
+Sensei,Active,S24,2,https://senseirobotics.com
+Guardian RF,Active,S24,3,https://guardianrf.com/
+Laminar AI,Active,S24,3,https://www.lmnr.ai
+Cerulion,Active,S24,2,https://www.cerulion.com
+Presti AI,Active,S24,7,https://www.presti.ai/
+The Forecasting Company,Active,S24,2,https://www.theforecastingcompany.com
+Praxos,Active,S24,3,https://www.praxos.ai
+Exa Laboratories,Active,S24,2,https://exalaboratories.com
+SchemeFlow,Active,S24,4,https://www.schemeflow.com
+Brighterway,Active,S24,2,https://www.brighterway.ai/
+Mineflow,Active,S24,1,http://mineflow.ai/
+Soff,Active,S24,2,https://soff.ai
+Parley,Active,S24,3,https://parley.so
+Intryc,Active,S24,7,https://intryc.com
+Pinnacle,Active,S24,2,https://trypinnacle.app/
+Ember Robotics,Active,S24,2,https://www.emberrobotics.com
+Thunder Compute,Active,S24,2,https://thundercompute.com/
+Zeit AI,Active,S24,3,https://zeit-ai.com/
+Remade,Active,S24,4,https://www.remade.ai/
+Distro,Active,S24,4,https://distro.app
+Modern Realty,Active,S24,2,https://modernrealty.io
+David AI,Active,S24,2,https://www.withdavid.ai/
+BeeBettor,Active,S24,2,https://beebettor.com
+Guardian AI,Active,S24,2,https://www.withguardian.ai/
+Stempad,Active,S24,1,https://www.stempad.io
+Pax,Active,S24,2,https://paxai.com
+Conductor Quantum,Active,S24,2,https://www.conductorquantum.com
+Autumn Labs,Active,S24,3,https://www.autumnlabs.io/
+Opslane,Active,S24,2,https://opslane.com
+Asterisk,Active,S24,3,https://asterisk.so
+Biocartesian,Active,S24,2,https://www.biocartesian.com
+Seals AI,Active,S24,4,https://www.hireseals.ai
+deepsilicon,Active,S24,2,https://www.deepsilicon.net/
+Drillbit,Active,S24,2,https://www.drillbit.com
+Lumenary,Active,S24,4,https://lumenary.com
+Dimely,Active,S24,2,https://dimely.co/
+Redouble AI,Active,S24,3,https://redouble.ai/
+Planbase,Active,S24,2,https://www.joinplanbase.com/
+Unriddle,Active,S24,4,https://www.unriddle.ai/
+Hestus Inc.,Active,S24,2,https://www.hestus.co
+MagiCode,Active,S24,2,https://www.magicode.ai/
+FINNY AI,Active,S24,4,https://www.finnyai.com/
+Focal,Active,S24,2,https://usefocal.ai
+1849 bio,Active,S24,3,https://www.1849.bio
+ReactWise,Active,S24,2,https://www.reactwise.com/
+Olive Legal,Active,S24,2,https://olive.legal
+Saturn,Active,S24,8,https://www.SaturnOS.com
+Clearly AI,Active,S24,2,https://clearly-ai.com
+expand.ai,Active,S24,2,https://expand.ai/
+Overstand Labs,Active,S24,2,https://overstandlabs.com
+Promi,Active,S24,2,https://www.usepromi.com/
+Ontra Mobility,Active,S24,2,https://www.ontramobility.com
+Fortress,Active,S24,3,https://fortress.build
+Panora,Active,S24,2,https://panora.dev
+Manaflow,Active,S24,3,https://manaflow.ai
+Conveo,Active,S24,5,https://conveo.ai/
+Parity,Active,S24,3,https://tryparity.com
+Kastle,Active,S24,2,https://kastle.ai/
+Kopra Bio,Active,S24,2,https://kopra.bio
+Anthrogen,Active,S24,3,https://anthrogen.com
+Benchify,Active,S24,2,https://www.benchify.com
+Fazeshift,Active,S24,2,https://www.fazeshift.com/
+TaxGPT,Active,S24,2,https://www.taxgpt.com
+Substrate,Active,S24,2,https://www.substrate.cc/
+Zenbase AI,Active,S24,2,https://zenbase.ai
+Taxo,Active,S24,8,https://taxo.ai
+Mito Health,Active,S24,8,https://mitohealth.com/
+Lighthouz AI,Active,S24,3,https://lighthouz.ai/
+Modus,Active,S24,3,https://himodus.com
+dmodel,Active,S24,2,https://www.dmodel.ai
+LedgerUp,Active,S24,3,https://ledgerup.ai/
+Plume,Active,S24,3,http://www.plumefinder.com
+Pulse AI,Active,S24,2,https://www.trypulse.ai
+AutoPallet Robotics,Active,S24,3,https://autopallet.bot
+Stormy,Active,S24,2,https://stormy.ai
+Merse,Active,S24,2,https://merse.co
+AminoAnalytica,Active,S24,3,https://www.aminoanalytica.com
+Gauge,Active,S24,2,https://gauge.sh
+Weave Robotics,Active,S24,2,https://www.weaverobots.com
+Tandem,Active,S24,9,https://tandem.space/
+AnswerGrid,Active,S24,2,https://answergrid.ai/
+Tivara,Active,S24,2,https://tivara.com
+camfer,Active,S24,3,https://www.camfer.dev/
+MinusX,Active,S24,3,https://minusx.ai
+Snowpilot,Active,S24,2,https://www.snowpilot.com
+Passage,Active,S24,2,https://www.trypassage.com
+Parahelp,Active,S24,2,https://parahelp.com/
+CodeViz,Active,S24,2,https://www.codeviz.ai
+Neuralize,Active,S24,3,https://runlocal.ai
+Ares Industries,Active,S24,2,https://aresindustries.com
+Dodo,Active,S24,3,https://www.dodo.health/
+Driftly,Active,S24,2,https://driftly.ai
+Elevate,Active,S24,2,https://www.useelevate.dev/
+Offstream,Active,S24,3,https://www.useoffstream.com/
+Storia AI,Active,S24,2,https://storia.ai
+DeepSim Inc.,Active,S24,3,https://www.deepsim.io
+reworks,Active,S24,2,https://www.reworks.ai
+Zuni,Active,S24,2,https://zuni.app
+Proxis,Active,S24,2,https://www.proxis.ai/
+Rewbi,Active,S24,2,https://www.rewbi.com/
+Willow,Active,S24,4,https://seewillow.com/
+Aviary,Active,S24,4,https://aviary.video
+NetworkOcean,Active,S24,2,https://networkocean.io/
+Silurian,Active,S24,3,https://silurian.ai
+Kura,Active,S24,2,https://www.usekura.com
+Unbound Security,Active,S24,4,https://www.unboundsecurity.ai/
+RetroFix AI,Active,S24,2,https://www.retrofix.ai/
+Azalea Robotics Corporation,Active,S24,2,https://azalearobotics.com/
+Decisional AI,Active,S24,3,https://www.getdecisional.ai/
+Moonglow,Active,S24,2,https://moonglow.ai
+ideate.xyz,Active,S24,2,https://ideate.xyz
+FirstWork,Active,S24,9,https://firstwork.com
+Sorcerer,Active,S24,3,https://sorcerer.earth
+Wordware,Active,S24,9,https://wordware.ai/
+Maitai,Active,S24,3,https://trymaitai.ai
+Corgi,Active,S24,8,https://www.corgi.insure/
+Phonely,Active,S24,4,https://phonely.ai
+VideoGen,Active,S24,3,https://videogen.io
+Clara,Active,S24,2,https://www.clarahomecare.com/
+Stack Auth,Active,S24,2,https://stack-auth.com
+Patchwork Technologies,Active,S24,3,https://getpatchwork.io
+Tabular,Active,S24,5,https://www.gotabular.de/en/
+Callback,Active,S24,2,https://getcallback.ai
+Flyflow,Active,S24,2,https://flyflow.ai
+Bayesline,Active,S24,2,https://bayesline.com
+DigitalCarbon,Active,S24,0,https://www.digitalcarbon.ai
+Random Labs,Active,S24,0,https://www.randomlabs.ai
+Unsloth AI,Active,S24,2,https://unsloth.ai/
+Codes Health,Active,S24,3,https://www.getcodeshealth.com/
+Entangl,Active,S24,2,https://www.entangl.ai/
+ClaimSorted,Active,S24,20,https://claimsorted.com
+mdhub,Active,S24,6,https://www.mdhub.ai/
+Hamming AI,Active,S24,2,https://hamming.ai/
+Genie,Active,S24,4,http://www.genie.gg
+ProhostAI,Active,S24,2,https://www.prohost.ai/
+Educato AI,Active,S24,3,https://www.educato.ai/
+Spaceium Inc,Active,S24,0,https://spaceium.com
+Comfy Deploy,Active,S24,2,https://comfydeploy.com
+Synnax,Active,S24,3,https://www.synnaxlabs.com/
+Theseus,Active,S24,3,https://theseus.us
+Saphira AI,Active,S24,2,https://saphira.ai
+Glasskube,Active,S24,5,https://glasskube.dev/
+Mem0,Active,S24,4,https://mem0.ai
+Cheers,Active,S24,2,https://www.cheersreviews.com
+Ply Health,Active,S24,3,https://plyhealth.com
+Superfilter,Active,S24,3,https://superfilter.ai
+Superunit,Active,S24,2,http://superunit.ai
+Undermind,Active,S24,2,https://www.undermind.ai
+Domu Technology Inc.,Active,S24,5,https://www.domu.ai/
+Apten,Active,S24,2,https://www.apten.ai/
+Spherecast,Active,S24,5,https://www.spherecast.ai
+Miru,Active,S24,3,https://www.miruml.com
+CardLift,Active,S24,2,https://withcardlift.com
+Abel Police,Active,S24,5,http://abelpolice.com
+Ultra,Active,S24,4,https://ultra.tech
+Ångström AI,Active,S24,5,https://www.angstrom-ai.com
+Coval,Active,S24,5,https://coval.dev
+Evolvere BioSciences,Active,S24,3,https://www.evolverebiosciences.com
+Spur,Active,S24,2,https://www.spurtest.com/
+Ligo Biosciences,Active,S24,4,https://www.ligo.bio
+ACX,Active,S24,2,https://www.acxtherapeutics.com/
+Cracked,Active,S24,2,https://www.cracked.so/
+Fuse,Active,S24,2,http://www.fuseinsight.com
+Central,Active,S24,13,https://centralhq.com
+Simplex,Active,S24,2,https://simplex.sh
+Poka Labs,Active,S24,2,https://www.pokalabs.com/
+Bifrost Orbital,Active,F24,0,https://bifrostorbital.com/
+HumanLayer,Active,F24,1,https://www.humanlayer.dev/
+Bramble,Active,F24,3,https://usebramble.com
+Dexter,Active,F24,3,https://www.getdexter.co/
+Regatta Storage,Active,F24,1,https://regattastorage.com
+Sandra.ai,Active,F24,3,https://www.sandra-ai.com/en
+supercontrast,Active,F24,2,https://supercontrast.com/
+PearAI,Active,F24,2,https://trypear.ai
