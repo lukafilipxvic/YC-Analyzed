@@ -1998,7 +1998,7 @@ Lokal,Active,S19,24,https://www.getlokalapp.com
 Binks,Active,S19,70,https://getbinks.com
 Gaiascope,Active,S19,9,http://gaia-scope.com
 LineLeap,Active,S19,20,https://lineleap.com
- CoLab,Active,S19,81,http://colabsoftware.com
+CoLab,Active,S19,81,http://colabsoftware.com
 EARTH AI,Active,S19,12,http://www.earth-ai.com
 Wasmer,Active,S19,11,https://wasmer.io
 Microverse,Active,S19,35,https://www.microverse.org
@@ -2350,7 +2350,7 @@ Nugget,Inactive,W20,2,https://linkedin.com/company/nuggetaudio
 Laguna,Inactive,W20,2,https://withlaguna.com
 Hideout,Inactive,W20,1,http://findhideout.com
 Datree,Active,W20,16,https://datree.io
-Pardes Biosciences,Public,S20,2,http://www.pardesbio.com
+Pardes Biosciences,Acquired,S20,2,http://www.pardesbio.com
 Brevy,Active,S20,8,https://brevy.com/
 Gilgamesh Pharmaceuticals,Active,S20,15,https://www.gilgameshpharmaceutical.com
 Matter,Active,S20,7,https://getmatter.app
@@ -3497,7 +3497,7 @@ Mintlify,Active,W22,11,https://mintlify.com
 SkyLink,Active,W22,12,http://www.tryskylink.com
 IOMETE,Active,W22,6,https://www.iomete.com
 Magna,Active,W22,18,https://magna.so
-RecordBook,Active,W22,15,https://play.google.com/store/apps/details?id=com.foodmonk.rekordapp
+RecordBook,Active,W22,15,https://www.rekord.in/
 Sphere,Active,W22,3,https://www.getsphere.com
 BharatX,Active,W22,9,https://bharatx.tech/
 Ping.gg,Active,W22,2,https://ping.gg
@@ -3971,7 +3971,7 @@ Vocode,Active,W23,9,https://vocode.dev
 Wallbit,Active,W23,15,https://wallbit.io
 Vellum,Active,W23,3,https://www.vellum.ai/
 Rex.fit,Active,W23,4,https://www.rex.fit
-Persist AI,Active,,6,http://www.persist-ai.com
+Persist AI,Active,W23,6,http://www.persist-ai.com
 Berry,Active,W23,3,https://berryai.com/
 Conduit,Active,W23,4,http://helloconduit.com
 CodeParrot AI,Active,W23,2,https://codeparrot.ai/
@@ -4004,7 +4004,7 @@ Clad,Active,W23,2,https://withclad.com/
 Pylon,Active,W23,15,https://usepylon.com
 Muffin Data,Active,W23,2,http://www.muffindata.com
 Peeba,Active,W23,30,http://peeba.com/
-Diffuse Bio,Active,,10,http://diffuse.bio
+Diffuse Bio,Active,W23,10,http://diffuse.bio
 inBuild,Active,W23,12,https://www.inbuild.ai/
 Sanvivo,Active,W23,4,http://www.sanvivo.eu
 clearspace,Active,W23,5,https://getclearspace.com
@@ -4736,7 +4736,7 @@ Vendra,Active,S24,2,https://vendra.io/
 Argil,Active,S24,8,https://www.argil.ai/
 ZeroPath,Active,S24,4,https://zeropath.com
 Actionbase,Active,S24,1,https://actionbase.co
-None,Active,None,0,None
+Corpdaq,Active,S24,0,https://corpdaq.com/
 Lumen Orbit,Active,S24,3,https://www.lumenorbit.com/
 Dataleap,Active,S24,2,https://dataleap.ai/
 Zimi,Active,S24,2,https://www.withzimi.com
