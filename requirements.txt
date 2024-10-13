@@ -4,4 +4,3 @@ jsonref
 pydantic
 python-dotenv
 selenium
-crawl4ai

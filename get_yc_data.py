@@ -100,7 +100,7 @@ if __name__ == "__main__":
             company_yc_page = scrape_individual_yc_company_page(company_url=company_url)
             company_details = extract_company_details(company_yc_page)
 
-            directory.write(f"{company_details['Name']},{company_details['Status']},{company_details['Batch']},{company_details['Team_size']},{company_details['Website']}\n")
+            directory.write(f"{company_details['Name']},{company_details['Status']},{company_details['Batch']},{company_details['Team Size']},{company_details['Website']}\n")
 
 # Get the company's current global google trends score, use the peak of ChatGPT, Facebook or YouTube as 100 points.
 # Search the internet to get their current annual revenue/valuation.
