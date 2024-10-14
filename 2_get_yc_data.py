@@ -6,7 +6,6 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from markdownify import markdownify as md
 
-from get_urls import get_all_urls
 from language_model import extract_urls, extract_company_details
 import pandas as pd
 
@@ -46,32 +45,6 @@ def scrape_individual_yc_company_page(company_url: str):
     else:
         print("Page content div not found.")
         return None, None
-
-def scrape_yc_batch(batch_code: str): # Scrape by batch
-    all_urls = get_all_urls(batch_code=batch_code)
-    #yc_company_urls = extract_urls(input=all_urls) # Returns company_path extract (low tokens)
-    #yc_company_urls['Company_path'] = [f"https://www.ycombinator.com/companies/{url}" for url in yc_company_urls['Company_path']]
-    #print(yc_company_urls)
-    #print(len(yc_company_urls['Company_path']))
-
-    with open(f'yc_data/YC_Companies_{batch_code}.csv', 'w', encoding='utf-8') as file:
-        file.write("Name,Status,Batch,Team_size,Website\n")  # Write header
-
-        for index, company_url in enumerate(all_urls, start=1): # If extracting using llm, replace all_urls with yc_company_urls['Company_path'] 
-            count = f"({index}/{len(all_urls)})" 
-            print(f"{count} Extracting {company_url}...") 
-            company_yc_page = scrape_individual_yc_company_page(company_url=company_url)
-            
-            print("Page extract complete.")
-            
-            print(f"{count} Extracting YC company details...")
-            company_details = extract_company_details(company_yc_page)
-            print(f"{count} YC page extraction complete.")
-            
-            # Format the company details for CSV
-            #founders = "; ".join([f"{f['name']} ({f.get('Founder_linkedin_url', '')} {f.get('Founder_twitter_url', '')})" for f in company_details['Founders']])
-            file.write(f"{company_details['Name']},{company_details['Status']},{company_details['Batch']},{company_details['Team_size']},{company_details['Website']}\n")  # Save company details to the file
-
 
 # Scrape by directory
 if __name__ == "__main__":
