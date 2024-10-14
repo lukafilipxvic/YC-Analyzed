@@ -103,4 +103,4 @@ if __name__ == "__main__":
             directory.write(f"{company_details['Name']},{company_details['Status']},{company_details['Batch']},{company_details['Team Size']},{company_details['Website']}\n")
 
 # Get the company's current global google trends score, use the peak of ChatGPT, Facebook or YouTube as 100 points.
-# Search the internet to get their current annual revenue/valuation.
+# Search the internet to get their current annual revenue/valuation?

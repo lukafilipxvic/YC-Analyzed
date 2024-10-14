@@ -1,2 +1,5 @@
 # YC Analyzed
- Analysis on every YC company ever.
+ Analysis on every YC Batch ever.
+
+
+## Scraping the data yourself...
