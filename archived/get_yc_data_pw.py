@@ -2,8 +2,8 @@ from playwright.sync_api import sync_playwright
 from bs4 import BeautifulSoup
 import time
 
-from get_urls import get_all_urls
-from language_model import extract_urls, extract_company_details
+from src.data_pipeline.get_yc_urls import get_all_urls
+from src.llm import extract_urls, extract_company_details
 
 
 def scrape_individual_yc_company_page(company_url: str):
@@ -44,7 +44,7 @@ def scrape_yc_batch(batch_code: str):
     all_urls = get_all_urls(batch_code=batch_code)
     yc_company_urls = extract_urls(input=all_urls)
 
-    with open(f'yc_data/YC_{batch_code}.csv', 'w') as file:  # Open a file to save details
+    with open(f'data/YC_{batch_code}.csv', 'w') as file:  # Open a file to save details
         # Write header based on the company data structure
         file.write("Name,Status,Batch,Team_size,One_liner,Website,Founders\n")  # Write header
 

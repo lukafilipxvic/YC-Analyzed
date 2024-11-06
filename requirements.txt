@@ -1,6 +1,5 @@
-json
-instructor
-jsonref
-pydantic
-python-dotenv
-selenium
+instructor==1.6.3
+litellm==1.48.0
+pydantic==2.9.2
+python-dotenv==1.0.1
+selenium==4.25.0
