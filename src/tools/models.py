@@ -20,14 +20,22 @@ class Founder(BaseModel):
 
 class YC_Company(BaseModel):
     name: str = Field(description="Name of the company.")
-    status: Literal["Active", "Inactive", "Acquired", "Public"] = Field(description="Status of the company.")
     batch: str = Field(description="YC batch code of participation.")
+    status: Literal["Active", "Inactive", "Acquired", "Public"] = Field(description="Status of the company.")
+    industry: Optional[str] = Field(description="Industry tags of the company.")
     team_size: Optional[int] = Field(description="Team size.")
     city: Annotated[Optional[str], AfterValidator(exclude_commas), Field(description="Name of the company's HQ city only.", default=None)]
-    founders: Optional[List[Founder]]
+    founders: Optional[List[Founder]] = Field(default=None)
 
 if __name__ == "__main__":
     try:
-        company = YC_Company(name="Coinbase", status='Active', batch="W09", team_size=100, city="London", founders=[Founder(first_name="Brian, not", last_name="Armstrong")])
+        company = YC_Company(
+            name="Coinbase",
+            batch="W09",
+            status='Active',
+            industry='"marketplace AI"',
+            team_size=100,
+            city="London",
+            founders=[Founder(first_name="Brian, not", last_name="Armstrong")])
     except ValidationError as e:
         print(e)

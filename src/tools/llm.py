@@ -9,7 +9,7 @@ def llms():
     Initializes and return LiteLLM Instructor client with a predefined set of models.
 
     Returns:
-        Router: AN instance of a Router client with multiple Cerebras and Groq llm models configured.
+        Router: An instance of a LitelLM Router client with multiple Cerebras and Groq llm models configured.
     '''
     try:
         client = instructor.patch(

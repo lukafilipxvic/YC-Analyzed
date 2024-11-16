@@ -24,8 +24,8 @@ git clone https://github.com/lukafilipxvic/YC-Analyzed.git
 ```get_yc_data.py``` takes 3 seconds to run for one company, taking 4.17 hours to scrape 5,000 YC companies synchronously.
 
 ## Cost to Scrape
-One ```get_yc_data.py``` scrape and extract with GPT-4o-mini costs ≈ $0.0003, costing $1.50 to scrape 5,000 YC companies.
+```get_yc_data.py``` with GPT-4o-mini costs ≈ $0.00111 per YC company page, costing approximately $5.56 to scrape 5,000 YC companies.
 
 In comparison, Gumloop charges 5 tokens to use a web-scraper and GPT-4o-mini twice, costing $80.83 to scrape 5,000 YC companies.
 
-The project is 40x cheaper then Gumloop's template...
+The project is 14.5x cheaper then Gumloop...

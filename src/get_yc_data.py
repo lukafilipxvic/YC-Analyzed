@@ -12,8 +12,8 @@ from selenium.webdriver.support import expected_conditions as EC
 from tools.driver import setup_driver, scroll_to_bottom
 from tools.extract import extract_company_details
 
-COMPANY_HEADER = "Name,Status,Batch,Team Size,Location\n"
-FOUNDER_HEADER = "Name,Status,Batch,Team Size,Location,Founder's First Name,Founder's Last Name,Founder's LinkedIn,Founder's Twitter\n"
+COMPANY_HEADER = "Name,Batch,Status,Industry,Team Size,Location\n"
+FOUNDER_HEADER = "Name,Batch,Status,Industry,Team Size,Location,Founder's First Name,Founder's Last Name,Founder's LinkedIn,Founder's Twitter\n"
 
 def setup_file_paths(date=None):
     if date:
@@ -57,6 +57,7 @@ def scrape_individual_yc_company_page(driver, company_url: str):
     if page_content_div:
         company_data = page_content_div["data-page"]
         company_data_md = md(str(company_data))
+        print(company_data_md)
 
         links = [a['href'] for a in page_content_div.find_all('a', href=True)]
         links = [link for link in links if not link.startswith("/")]
@@ -97,7 +98,7 @@ def main():
                     founder_list.write(FOUNDER_HEADER)
 
                 for index, row in df.iterrows():
-                    if index < completed_company_count:
+                    if index < completed_company_count-1:
                         continue
 
                     company_url = row['YC URL']
@@ -105,22 +106,22 @@ def main():
 
                     try:
                         company_yc_page = scrape_individual_yc_company_page(driver, company_url)
-                        company_details = extract_company_details(company_yc_page)
+                        company_extract = extract_company_details(company_yc_page)
                         
                         company_list.write(
-                                    f"{company_details.get('name')},{company_details.get('status')},{company_details.get('batch')},"
-                                    f"{company_details.get('team_size')},{company_details.get('city')}\n"
+                                    f'"{company_extract.get('name')}",{company_extract.get('batch')},{company_extract.get('status')},'
+                                    f'"{company_extract.get('industry')}",{company_extract.get('team_size')},{company_extract.get('city')}\n'
                         )
-
-                        for founder in company_details["founders"]:
-                                founder_list.write(
-                                    f"{company_details.get('name')},{company_details.get('status')},{company_details.get('batch')},"
-                                    f"{company_details.get('team_size')},{company_details.get('city')},"
-                                    f"{founder.get('first_name')},{founder.get('last_name')},"
-                                    f"{founder.get('founder_linkedin_url', '')},{founder.get('founder_twitter_url', '')}\n"
-                                )
                     except ValidationError as e:
                         print(f"Validation error for {company_url}: {e}")
+                    if company_extract["founders"] is not None:
+                        for founder in company_extract["founders"]:
+                                founder_list.write(
+                                    f'"{company_extract.get('name')}",{company_extract.get('batch')},{company_extract.get('status')},'
+                                    f'"{company_extract.get('industry')}",{company_extract.get('team_size')},{company_extract.get('city')},'
+                                    f'{founder.get('first_name')},{founder.get('last_name')},'
+                                    f'{founder.get('founder_linkedin_url', '')},{founder.get('founder_twitter_url', '')}\n'
+                                )
 
         print(f"Data saved to {Companies_file_path} and {Founders_file_path}")
     finally:
