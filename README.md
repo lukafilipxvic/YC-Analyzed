@@ -14,9 +14,12 @@ Any language model of your choice through LiteLLM. High-performing models like G
 ```
 git clone https://github.com/lukafilipxvic/YC-Analyzed.git
 ```
-1. Set your ```.env``` file with the required API keys.
-2. Install dependencies with ```pip install -r requirements.txt```.
-3. Run ```run_yc_pipeline.py``` to scrape all the URLs into YC_URLs.csv
+```
+uv sync
+```
+
+1. Set up your ```.env``` file with the required API keys.
+2. Run ```run_yc_pipeline.py``` to scrape all the URLs into YC_URLs.csv
 
 ## Time to Complate
 ```get_yc_urls.py``` takes 5:20 minutes to scrape all YC urls.
