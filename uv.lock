@@ -357,6 +357,11 @@ wheels = [
     { url = "https://files.pythonhosted.org/packages/10/98/c96bf0b1656173d06cd6c3a5adaf3ac429f86d5d696ae8e90e6eb15e89be/instructor-1.6.3-py3-none-any.whl", hash = "sha256:a8f973fea621c0188009b65a3429a526c24aeb249fc24100b605ea496e92d622", size = 69447 },
 ]
 
+[package.optional-dependencies]
+litellm = [
+    { name = "litellm" },
+]
+
 [[package]]
 name = "jinja2"
 version = "3.1.5"
@@ -1109,7 +1114,7 @@ name = "yc-analyzed"
 version = "0.1.0"
 source = { virtual = "." }
 dependencies = [
-    { name = "instructor" },
+    { name = "instructor", extra = ["litellm"] },
     { name = "litellm" },
     { name = "pydantic" },
     { name = "python-dotenv" },
@@ -1118,7 +1123,7 @@ dependencies = [
 
 [package.metadata]
 requires-dist = [
-    { name = "instructor", specifier = "==1.6.3" },
+    { name = "instructor", extras = ["litellm"], specifier = "==1.6.3" },
     { name = "litellm", specifier = "==1.48.0" },
     { name = "pydantic", specifier = "==2.9.2" },
     { name = "python-dotenv", specifier = "==1.0.1" },

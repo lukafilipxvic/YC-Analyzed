@@ -5,7 +5,7 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
-    "instructor==1.6.3",
+    "instructor[litellm]==1.6.3",
     "litellm==1.48.0",
     "pydantic==2.9.2",
     "python-dotenv==1.0.1",

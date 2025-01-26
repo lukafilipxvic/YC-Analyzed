@@ -9,7 +9,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
-from tools.driver import setup_driver, scroll_to_bottom
+from tools.web_driver import setup_driver, scroll_to_bottom
 from tools.extract import extract_company_details
 
 COMPANY_HEADER = "Name,Batch,Status,Industry,Team Size,Location\n"

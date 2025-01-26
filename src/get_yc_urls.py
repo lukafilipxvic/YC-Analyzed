@@ -4,7 +4,7 @@ from selenium.common.exceptions import TimeoutException, NoSuchElementException
 import pandas as pd
 import argparse
 
-from tools.driver import setup_driver, scroll_to_bottom
+from tools.web_driver import setup_driver, scroll_to_bottom
 
 def get_all_urls(driver, batch_code: str):
     url = f'https://www.ycombinator.com/companies?batch={batch_code}'

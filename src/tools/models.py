@@ -20,7 +20,7 @@ class Founder(BaseModel):
 
 class YC_Company(BaseModel):
     name: str = Field(description="Name of the company.")
-    batch: str = Field(description="YC batch code of participation.")
+    batch: str = Field(description="YC batch code of participation. W for winter, S for summer, F for fall from F24, X for spring from X25.")
     status: Literal["Active", "Inactive", "Acquired", "Public"] = Field(description="Status of the company.")
     industry: Optional[str] = Field(description="Industry tags of the company.")
     team_size: Optional[int] = Field(description="Team size.")
