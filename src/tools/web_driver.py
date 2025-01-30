@@ -14,7 +14,7 @@ def setup_driver():
     driver = webdriver.Chrome(options=chrome_options)
     return driver
 
-def scroll_to_bottom(driver, scroll_pause=0.4):
+def scroll_to_bottom(driver, scroll_pause=0.45):
     """Scroll to the bottom of the page with a pause, returning when fully loaded."""
     last_height = driver.execute_script("return document.body.scrollHeight")
     while True:
