@@ -4,7 +4,7 @@ from .models import Company_Path, YC_Company
 
 client = instructor.from_litellm(completion)
 
-def extract_urls(input, model: str = "llama3.1-70b"):
+def extract_urls(input, model: str = "groq/deepseek-r1-distill-llama-70b"):
     data, resp = client.chat.completions.create_with_completion(
         model=model,
         response_model=Company_Path,
