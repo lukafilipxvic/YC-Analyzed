@@ -2140,7 +2140,7 @@ wheels = [
 ]
 
 [[package]]
-name = "yc-analyzed"
+name = "yc-vault"
 version = "0.1.0"
 source = { virtual = "." }
 dependencies = [

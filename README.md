@@ -1,18 +1,18 @@
-# YC Analyzed
+# YC Vault
  Analysis on every YC Batch ever.
  Read the initial blog post [here.](https://lukafilipovic.com/writing/2024/10/12/analysing-every-y-combinator-batch-ever/)
 
  ## Why?
 Exceptional founders deliver exceptional results. Y Combinator has one of the highest concentrations of technical founders.
 Companies like Airbnb, Docker, Instacart and Coinbase were all brought up through the accelerator. But they only represent the top percentile. 
-That's why I built YC Analyzed.
+That's why I built YC Vault.
 
 ## Requirements
 Any language model of your choice through LiteLLM. High-performing models like GPT-4o-mini are recommended for their data extraction accuracy.
 
 ## Scraping the data yourself...
 ```
-git clone https://github.com/lukafilipxvic/YC-Analyzed.git
+git clone https://github.com/lukafilipxvic/YC-Vault.git
 ```
 ```
 uv sync
