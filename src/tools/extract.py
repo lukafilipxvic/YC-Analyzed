@@ -1,10 +1,11 @@
-from .llm import llms
+from litellm import completion
+import instructor
 from .models import Company_Path, YC_Company
 
-client = llms()
+client = instructor.from_litellm(completion)
 
-def extract_urls(input, model: str = "llama3.1-70b"):
-    resp = client.chat.completions.create(
+def extract_urls(input, model: str = "groq/deepseek-r1-distill-llama-70b"):
+    data, resp = client.chat.completions.create_with_completion(
         model=model,
         response_model=Company_Path,
         messages=[
@@ -20,8 +21,8 @@ def extract_urls(input, model: str = "llama3.1-70b"):
     )
     return resp.model_dump()
 
-def extract_company_details(input, model: str = "gpt-4o-mini"):
-    resp = client.chat.completions.create(
+def extract_company_details(input, model: str = "openai/gpt-4o-mini"):
+    data, resp = client.chat.completions.create_with_completion(
         model=model, # Use gpt-4o-mini from OpenAI, llama3.1-70b from Cerebras or llama-3.1-70b-versatile from Groq
         response_model=YC_Company,
         max_retries=10,

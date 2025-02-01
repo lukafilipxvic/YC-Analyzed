@@ -9,7 +9,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
-from tools.driver import setup_driver, scroll_to_bottom
+from tools.web_driver import setup_driver, scroll_to_bottom
 from tools.extract import extract_company_details
 
 COMPANY_HEADER = "Name,Batch,Status,Industry,Team Size,Location\n"
@@ -106,7 +106,7 @@ def main():
 
                     try:
                         company_yc_page = scrape_individual_yc_company_page(driver, company_url)
-                        company_extract = extract_company_details(company_yc_page)
+                        company_extract = extract_company_details(company_yc_page, model="groq/llama-3.3-70b-specdec")
                         
                         company_list.write(
                                     f'"{company_extract.get('name')}",{company_extract.get('batch')},{company_extract.get('status')},'

@@ -19,7 +19,7 @@ uv sync
 ```
 
 1. Set up your ```.env``` file with the required API keys.
-2. Run ```run_yc_pipeline.py``` to scrape all the URLs into YC_URLs.csv
+2. Run ```run_pipeline.py``` to scrape all the URLs into YC_URLs.csv
 
 ## Time to Complate
 ```get_yc_urls.py``` takes 5:20 minutes to scrape all YC urls.
