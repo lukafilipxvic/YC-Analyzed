@@ -7,10 +7,10 @@ from collections import Counter
 def setup_file_paths(date=None):
     if date:
         directory = f'data/{date}'
-        directory_file_path = f"data/{date}/YC_Directory.csv"
+        directory_file_path = f"data/{date}/YC_Companies.csv"
     else:
         directory = 'data/'
-        directory_file_path = "data/YC_Directory.csv"
+        directory_file_path = "data/YC_Companies.csv"
     os.makedirs(directory, exist_ok=True)
     return directory_file_path
 

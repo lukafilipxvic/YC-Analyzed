@@ -6,7 +6,7 @@ def exclude_commas(text: Optional[str]) -> str:
     if text is None:
         return text
     elif "," in text:
-        raise ValueError("Variable must not commain commas.")
+        raise ValueError("Variable must not contain commas.")
     return text
 
 class Company_Path(BaseModel):
@@ -36,6 +36,6 @@ if __name__ == "__main__":
             industry='"marketplace AI"',
             team_size=100,
             city="London",
-            founders=[Founder(first_name="Brian, not", last_name="Armstrong")])
+            founders=[Founder(first_name="Brian, is not", last_name="Armstrong")])
     except ValidationError as e:
         print(e)

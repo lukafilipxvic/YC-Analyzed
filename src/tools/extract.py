@@ -1,6 +1,6 @@
 from .models import Company_Path, YC_Company
 
-def extract_urls(client, input, model: str = "groq/deepseek-r1-distill-llama-70b"):
+def extract_urls(client, input, model: str = "openai/gpt-4o-mini"):
     data, resp = client.chat.completions.create_with_completion(
         model=model,
         response_model=Company_Path,

@@ -6,10 +6,10 @@ current_date = datetime.now().strftime('%Y-%m-%d')
 os.makedirs(f'data/{current_date}', exist_ok=True)
 
 pipeline_steps = [
-    #f"uv run python -u src/get_yc_urls.py --date {current_date}",
-    f"uv run python -u src/get_yc_data.py --date 2025-02-01",
-    #f"uv run python src/generate_statistics.py --date {current_date}",
-    #f"uv run python src/generate_charts.py --date {current_date}"
+    f"uv run python -u src/get_yc_urls.py --date {current_date}",
+    f"uv run python -u src/get_yc_data.py --date {current_date}",
+    f"uv run python src/generate_statistics.py --date {current_date}",
+    f"uv run python src/generate_charts.py --date {current_date}",
 ]
 
 def run_pipeline_steps(steps):
