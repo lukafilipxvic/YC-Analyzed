@@ -15,12 +15,12 @@ class Company_Path(BaseModel):
 class Founder(BaseModel):
     first_name: Annotated[str, AfterValidator(exclude_commas), Field(description="Founder's first name only. No Nicknames.")]
     last_name: Annotated[str, AfterValidator(exclude_commas), Field(description="Founder's last name.")]
-    founder_linkedin_url: Optional[HttpUrl] = Field(description="Founder's LinkedIn Profile URL.", default=None)
-    founder_twitter_url: Optional[HttpUrl] = Field(description="Founder's Twitter Profile URL.", default=None)
+    founder_linkedin_url: Optional[HttpUrl] = Field(description="Founder's LinkedIn URL.", default=None)
+    founder_twitter_url: Optional[HttpUrl] = Field(description="Founder's Twitter URL.", default=None)
 
 class YC_Company(BaseModel):
     name: str = Field(description="Name of the company.")
-    batch: str = Field(description="YC batch code of participation. W for winter, S for summer, F for fall from F24, X for spring from X25.")
+    batch: str = Field(description="YC batch code of participation: Unspecified, W## for Winter, S## for Summer, F## for Fall, X## for Spring.")
     status: Literal["Active", "Inactive", "Acquired", "Public"] = Field(description="Status of the company.")
     industry: Optional[str] = Field(description="Industry tags of the company.")
     team_size: Optional[int] = Field(description="Team size.")

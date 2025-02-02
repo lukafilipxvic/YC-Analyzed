@@ -1,10 +1,6 @@
-from litellm import completion
-import instructor
 from .models import Company_Path, YC_Company
 
-client = instructor.from_litellm(completion)
-
-def extract_urls(input, model: str = "groq/deepseek-r1-distill-llama-70b"):
+def extract_urls(client, input, model: str = "groq/deepseek-r1-distill-llama-70b"):
     data, resp = client.chat.completions.create_with_completion(
         model=model,
         response_model=Company_Path,
@@ -21,15 +17,15 @@ def extract_urls(input, model: str = "groq/deepseek-r1-distill-llama-70b"):
     )
     return resp.model_dump()
 
-def extract_company_details(input, model: str = "openai/gpt-4o-mini"):
-    data, resp = client.chat.completions.create_with_completion(
-        model=model, # Use gpt-4o-mini from OpenAI, llama3.1-70b from Cerebras or llama-3.1-70b-versatile from Groq
+def extract_company_details(client, input, model: str = "openai/gpt-4o-mini"):
+    resp = client.chat.completions.create(
+        model=model,
         response_model=YC_Company,
         max_retries=10,
         messages=[
             {
                 "role": "system",
-                "content": "You are an advanced company details extractor. You will extract the relevant company information without any additional context or commentary. You must not include any commas in your response."
+                "content": "Extract the relevant company information without any additional commentary:"
             },
             {
                 "role": "user",

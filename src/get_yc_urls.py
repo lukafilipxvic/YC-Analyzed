@@ -1,7 +1,7 @@
 import os
 import pandas as pd
 from selenium.webdriver.common.by import By
-from selenium.common.exceptions import TimeoutException, NoSuchElementException
+from selenium.common.exceptions import TimeoutException
 from tools.web_driver import setup_driver, scroll_to_bottom
 import argparse
 
@@ -11,7 +11,7 @@ def get_all_urls(driver, batch_code):
     driver.get(url)
     try:
         # Scroll to load all companies on the page
-        scroll_to_bottom(driver, scroll_pause=0.6)
+        scroll_to_bottom(driver, pause_before=0.4, pause_after=0.2)
 
         # Extract and filter URLs
         links = driver.find_elements(By.TAG_NAME, "a")

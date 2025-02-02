@@ -14,12 +14,13 @@ def setup_driver():
     driver = webdriver.Chrome(options=chrome_options)
     return driver
 
-def scroll_to_bottom(driver, scroll_pause=0.45):
+def scroll_to_bottom(driver, pause_before=0.4, pause_after=0.2):
     """Scroll to the bottom of the page with a pause, returning when fully loaded."""
     last_height = driver.execute_script("return document.body.scrollHeight")
     while True:
+        time.sleep(pause_before)
         driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
-        time.sleep(scroll_pause)
+        time.sleep(pause_after)
 
         new_height = driver.execute_script("return document.body.scrollHeight")
         if new_height == last_height:

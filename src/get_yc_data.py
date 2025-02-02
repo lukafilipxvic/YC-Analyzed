@@ -1,15 +1,13 @@
 import os
 import argparse
-from bs4 import BeautifulSoup
-import csv
-from markdownify import markdownify as md
-import pandas as pd
 from pydantic import ValidationError
-from selenium.webdriver.common.by import By
-from selenium.webdriver.support.ui import WebDriverWait
-from selenium.webdriver.support import expected_conditions as EC
+from crawl4ai import AsyncWebCrawler, BrowserConfig, CrawlerRunConfig, CacheMode, LXMLWebScrapingStrategy
+from litellm import completion
+import instructor
+import pandas as pd
+import csv
+import asyncio
 
-from tools.web_driver import setup_driver, scroll_to_bottom
 from tools.extract import extract_company_details
 
 COMPANY_HEADER = "Name,Batch,Status,Industry,Team Size,Location\n"
@@ -24,7 +22,7 @@ def setup_file_paths(date=None):
     else:
         directory = 'data/'
         Companies_file_path = "data/YC_Companies.csv"
-        Founders_file_path = f"data/YC_Founders.csv"
+        Founders_file_path = "data/YC_Founders.csv"
         URL_file_path = "data/YC_URLs.csv"
     os.makedirs(directory, exist_ok=True)
     return Companies_file_path, Founders_file_path, URL_file_path
@@ -45,28 +43,7 @@ def get_last_processed_company(file_path):
     except FileNotFoundError:
         return -1
 
-def scrape_individual_yc_company_page(driver, company_url: str):
-    driver.get(company_url)
-    
-    WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.TAG_NAME, "a")))
-    scroll_to_bottom(driver, scroll_pause=0.2)
-
-    soup = BeautifulSoup(driver.page_source, 'html.parser')
-    page_content_div = soup.find('div', {'data-page': True})
-    
-    if page_content_div:
-        company_data = page_content_div["data-page"]
-        company_data_md = md(str(company_data))
-        print(company_data_md)
-
-        links = [a['href'] for a in page_content_div.find_all('a', href=True)]
-        links = [link for link in links if not link.startswith("/")]
-        return company_data_md, links
-    else:
-        print("Page content div not found.")
-        return None, None
-
-def main():
+async def main():
     parser = argparse.ArgumentParser(description="Fetch YC URLs with date.")
     parser.add_argument('--date', type=str, help="Current date in YYYY-MM-DD format")
     args = parser.parse_args()
@@ -75,60 +52,73 @@ def main():
     Companies_file_path, Founders_file_path, YC_URL_file_path = setup_file_paths(date)
     df = pd.read_csv(YC_URL_file_path)
 
+    # Create files if they don't exist.
     if not os.path.exists(Companies_file_path):
         with open(Companies_file_path, 'w', encoding='utf-8') as company_list:
             pass
-
     if not os.path.exists(Founders_file_path):
         with open(Founders_file_path, 'w', encoding='utf-8') as founder_list:
             pass
 
     completed_company_count = get_last_processed_company(Companies_file_path)
-    print(completed_company_count)
+    print(f"Companies processed so far: {completed_company_count}", flush=True)
 
-    driver = setup_driver()
+    client = instructor.from_litellm(completion)
 
-    try:
-        with open(Companies_file_path, 'a', encoding='utf-8') as company_list:
-            if completed_company_count == -1:
-                company_list.write(COMPANY_HEADER)
+    # Crawl4ai setup
+    browser_conf = BrowserConfig(headless=False)
+    session_id = "yc_page_session"
+    crawler_conf = CrawlerRunConfig(only_text=True,
+                              cache_mode=CacheMode.ENABLED,
+                              exclude_external_images=True,
+                              excluded_tags=["header", "footer"],
+                              session_id=session_id,
+                              scraping_strategy=LXMLWebScrapingStrategy())
 
-            with open(Founders_file_path, 'a', encoding='utf-8') as founder_list:
-                if completed_company_count == -1:
-                    founder_list.write(FOUNDER_HEADER)
+    # Open the output files once.
+    with open(Companies_file_path, 'a', encoding='utf-8') as company_list, \
+         open(Founders_file_path, 'a', encoding='utf-8') as founder_list:
+        if completed_company_count == -1:
+            company_list.write(COMPANY_HEADER)
+            founder_list.write(FOUNDER_HEADER)
 
-                for index, row in df.iterrows():
-                    if index < completed_company_count-1:
+        # Loop over each URL in the CSV.
+        async with AsyncWebCrawler(config=browser_conf) as crawler:
+            for index, row in df.iterrows():
+                if index < completed_company_count - 1:
+                    continue
+
+                company_url = row['YC URL']
+                print(f"({index + 1}/{len(df)}) Extracting {company_url}...", flush=True)
+                try:
+                    result = await crawler.arun(url=company_url, config=crawler_conf)
+                    if result.markdown is None:
                         continue
 
-                    company_url = row['YC URL']
-                    print(f"({index + 1}/{len(df)}) Extracting {company_url}...")
-
-                    try:
-                        company_yc_page = scrape_individual_yc_company_page(driver, company_url)
-                        company_extract = extract_company_details(company_yc_page, model="groq/llama-3.3-70b-specdec")
-                        
-                        company_list.write(
-                                    f'"{company_extract.get('name')}",{company_extract.get('batch')},{company_extract.get('status')},'
-                                    f'"{company_extract.get('industry')}",{company_extract.get('team_size')},{company_extract.get('city')}\n'
-                        )
-                    except ValidationError as e:
-                        print(f"Validation error for {company_url}: {e}")
-                    if company_extract["founders"] is not None:
+                    company_extract = extract_company_details(client, result.markdown, model="openai/gpt-4o-mini")
+                    
+                    # Write company data.
+                    company_list.write(
+                        f'"{company_extract.get("name")}",{company_extract.get("batch")},'
+                        f'{company_extract.get("status")},"{company_extract.get("industry")}",'
+                        f'{company_extract.get("team_size")},{company_extract.get("city")}\n'
+                    )
+                    
+                    if company_extract.get("founders") is not None:
                         for founder in company_extract["founders"]:
-                                founder_list.write(
-                                    f'"{company_extract.get('name')}",{company_extract.get('batch')},{company_extract.get('status')},'
-                                    f'"{company_extract.get('industry')}",{company_extract.get('team_size')},{company_extract.get('city')},'
-                                    f'{founder.get('first_name')},{founder.get('last_name')},'
-                                    f'{founder.get('founder_linkedin_url', '')},{founder.get('founder_twitter_url', '')}\n'
-                                )
+                            founder_list.write(
+                                f'"{company_extract.get("name")}",{company_extract.get("batch")},'
+                                f'{company_extract.get("status")},"{company_extract.get("industry")}",'
+                                f'{company_extract.get("team_size")},{company_extract.get("city")},'
+                                f'{founder.get("first_name")},{founder.get("last_name")},'
+                                f'{founder.get("founder_linkedin_url", "")},{founder.get("founder_twitter_url", "")}\n'
+                            )
+                except ValidationError as e:
+                    print(f"Validation error for {company_url}: {e}", flush=True)
+        await crawler.crawler_strategy.kill_session(session_id)
 
-        print(f"Data saved to {Companies_file_path} and {Founders_file_path}")
-    finally:
-        driver.quit()
+    print(f"Data saved to {Companies_file_path} and {Founders_file_path}", flush=True)
 
 if __name__ == "__main__":
-    main()
-
-# Get the company's current global google trends score, use the peak of ChatGPT, Facebook or YouTube as 100 points.
-# Search the internet to get their current annual revenue/valuation?
+    # Run the async main function.
+    asyncio.run(main())

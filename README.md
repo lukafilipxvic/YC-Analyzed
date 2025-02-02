@@ -10,7 +10,7 @@ That's why I built YC Vault.
 ## Requirements
 Any language model of your choice through LiteLLM. High-performing models like GPT-4o-mini are recommended for their data extraction accuracy.
 
-## Scraping the data yourself...
+## Project installation
 ```
 git clone https://github.com/lukafilipxvic/YC-Vault.git
 ```
@@ -18,13 +18,14 @@ git clone https://github.com/lukafilipxvic/YC-Vault.git
 uv sync
 ```
 
-1. Set up your ```.env``` file with the required API keys.
-2. Run ```run_pipeline.py``` to scrape all the URLs into YC_URLs.csv
+1. Set up the ```.env``` file with your OpenAI API key.
+2. Type all the batch IDs into YC_Batches.csv. This file will require updating as new batches are founded. 
+3. Run ```run_pipeline.py``` to perform the scape.
 
 ## Time to Complate
-```get_yc_urls.py``` takes 5:20 minutes to scrape all YC urls.
+```get_yc_urls.py``` takes 5.3 minutes to scrape all YC URLs.
 
-```get_yc_data.py``` takes 3 seconds to run for one company, taking 4.17 hours to scrape 5,000 YC companies synchronously.
+```get_yc_data.py``` takes 4.6 seconds to run for one company, taking 6.3 hours to scrape 5,000 YC companies synchronously.
 
 ## Cost to Scrape
 ```get_yc_data.py``` with GPT-4o-mini costs ≈ $0.00111 per YC company page, costing approximately $5.56 to scrape 5,000 YC companies.
