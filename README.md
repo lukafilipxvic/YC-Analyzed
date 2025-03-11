@@ -21,10 +21,14 @@ uv sync
 ```
 
 3. Set up environment:
-   - Create a `.env` file with your OpenAI API key
+   - Create a `.env` file using the '.env.example' file as a template
    - Example `.env` file:
      ```
+     [llm]
      OPENAI_API_KEY=your_api_key_here
+     
+     [data]
+     DATA_DIR=./data
      ```
 
 ## Usage
@@ -52,7 +56,7 @@ uv run python run_pipeline.py
 
 ## Data Structure
 
-The scraping pipeline generates several CSV files:
+The scraping pipeline generates 3 CSV files:
 - `YC_Companies.csv`: Company profiles and metrics
 - `YC_Founders.csv`: Founder information and backgrounds
 - `YC_URLs.csv`: Source URLs for all scraped data
