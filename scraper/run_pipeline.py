@@ -1,15 +1,18 @@
 from datetime import datetime
 import subprocess
 import os
+from pathlib import Path
 
 current_date = datetime.now().strftime('%Y-%m-%d')
-os.makedirs(f'data/{current_date}', exist_ok=True)
+# Create path reference to the data directory in parent folder
+data_dir = Path(__file__).resolve().parent.parent / "data" / current_date
+os.makedirs(data_dir, exist_ok=True)
 
 pipeline_steps = [
     f"uv run python -u src/get_yc_urls.py --date {current_date}",
     f"uv run python -u src/get_yc_data.py --date {current_date}",
-    f"uv run python src/generate_statistics.py --date {current_date}",
-    f"uv run python src/generate_charts.py --date {current_date}",
+    #f"uv run python src/generate_statistics.py --date {current_date}",
+    #f"uv run python src/generate_charts.py --date {current_date}",
 ]
 
 def run_pipeline_steps(steps):

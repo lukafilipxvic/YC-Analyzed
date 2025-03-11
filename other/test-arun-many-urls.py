@@ -1,7 +1,7 @@
 from crawl4ai import AsyncWebCrawler, BrowserConfig, CrawlerRunConfig, CacheMode, LXMLWebScrapingStrategy
 import asyncio
 
-browser_conf = BrowserConfig(browser_type="firefox",headless=False)
+browser_conf = BrowserConfig(browser_type="firefox",headless=True)
 crawler_conf = CrawlerRunConfig(#cache_mode=CacheMode.DISABLED,
                                 #exclude_external_images=True,
                                 #excluded_tags=["header", "footer"],
@@ -16,7 +16,7 @@ crawler_conf = CrawlerRunConfig(#cache_mode=CacheMode.DISABLED,
 
 async def main():
     async with AsyncWebCrawler(config=browser_conf) as crawler:
-        result = await crawler.arun(url="https://www.ycombinator.com/companies?batch=F24" , config=crawler_conf)
+        result = await crawler.arun(url="https://www.ycombinator.com/companies?batch=S06" , config=crawler_conf)
         if result.success:
             #print(result.html)          # Raw HTML
             #print(result.cleaned_html)  # Cleaned HTML 

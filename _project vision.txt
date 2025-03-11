@@ -1,2 +1,24 @@
-YC also has a Founders directory: https://www.ycombinator.com/companies/founders
-We can scrape that to analyse founders by batch, school, prior employers and role at their yc company.
+# Project Vision
+
+## Vision
+I vision YC Vault to be the number one place for people to analyse the YCombinator directory.
+
+YCombinator is a living database that capture more attention as more data is collected over time.
+YC Vault's vision is that turning VC startup directories will be as easy as riding a bike.
+
+Over the last decade, we've seen the importance of AI, the increase of data-driven decision making, and the reliance of technology ever so growing.
+These trends are set to acceleralte rapidly, now that language models are becoming a household product.
+
+Imagine if you were able to analyze a VC's investment portfolio with just a single piece of software.
+We'll actually be able to do this as soon as we build a user experience that blows competition away.
+Eventually, we will elimiate the need for VC analysts and large data pipelines for users to manage.
+
+## Mission
+I want nextjs app that provides visualizations of the performance of each ycombinator batch over time.
+I want to be able to use it to make data-driven decisions as a VC partner or a founder.
+
+## Core Values
+- Data is King
+- Shoot for Saturn  
+- Archive for the future
+- Anything is possible

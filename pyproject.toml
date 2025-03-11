@@ -1,13 +1,16 @@
 [project]
-name = "yc-vault"
+name = "yc-vault-scraper"
 version = "0.1.0"
-description = "Add your description here"
+description = "Scraper for Y Combinator startup data"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
     "crawl4ai>=0.3.744",
+    "fastapi[standard]>=0.115.11",
     "instructor[litellm]==1.6.3",
     "matplotlib>=3.10.0",
     "pandas>=2.2.3",
+    "pydantic-settings>=2.8.1",
     "selenium==4.25.0",
+    "stealth-requests>=1.2.1",
 ]

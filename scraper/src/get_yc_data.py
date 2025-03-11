@@ -15,15 +15,15 @@ FOUNDER_HEADER = "Name,Batch,Status,Industry,Team Size,Location,Founder's First 
 
 def setup_file_paths(date=None):
     if date:
-        directory = f'data/{date}'
-        Companies_file_path = f"data/{date}/YC_Companies.csv"
-        Founders_file_path = f"data/{date}/YC_Founders.csv"
-        URL_file_path = f"data/{date}/YC_URLs.csv"
+        directory = f'../data/{date}'
+        Companies_file_path = f"../data/{date}/YC_Companies.csv"
+        Founders_file_path = f"../data/{date}/YC_Founders.csv"
+        URL_file_path = f"../data/{date}/YC_URLs.csv"
     else:
-        directory = 'data/'
-        Companies_file_path = "data/YC_Companies.csv"
-        Founders_file_path = "data/YC_Founders.csv"
-        URL_file_path = "data/YC_URLs.csv"
+        directory = '../data/'
+        Companies_file_path = "../data/YC_Companies.csv"
+        Founders_file_path = "../data/YC_Founders.csv"
+        URL_file_path = "../data/YC_URLs.csv"
     os.makedirs(directory, exist_ok=True)
     return Companies_file_path, Founders_file_path, URL_file_path
 
@@ -66,10 +66,10 @@ async def main():
     client = instructor.from_litellm(completion)
 
     # Crawl4ai setup
-    browser_conf = BrowserConfig(headless=False)
+    browser_conf = BrowserConfig(headless=True)
     session_id = "yc_page_session"
     crawler_conf = CrawlerRunConfig(only_text=True,
-                              cache_mode=CacheMode.ENABLED,
+                              cache_mode=CacheMode.BYPASS,
                               exclude_external_images=True,
                               excluded_tags=["header", "footer"],
                               session_id=session_id,
@@ -92,6 +92,7 @@ async def main():
                 print(f"({index + 1}/{len(df)}) Extracting {company_url}...", flush=True)
                 try:
                     result = await crawler.arun(url=company_url, config=crawler_conf)
+                    #print(result.markdown)
                     if result.markdown is None:
                         continue
 
